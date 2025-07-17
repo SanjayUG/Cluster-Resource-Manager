@@ -1,0 +1,66 @@
+[2025-07-17 04:39:49] [INFO]    Manager starting...
+[2025-07-17 04:39:49] [INFO]    Manager listening on 127.0.0.1:5000
+[2025-07-17 04:39:59] [INFO]    Node node1 connected from 127.0.0.1:9001
+[2025-07-17 04:39:59] [INFO]    Manager: handling persistent connection for node node1 (socket: 5) to persistent handler.
+[2025-07-17 04:40:10] [INFO]    Node node2 connected from 127.0.0.1:9002
+[2025-07-17 04:40:10] [INFO]    Manager: handling persistent connection for node node2 (socket: 6) to persistent handler.
+[2025-07-17 04:40:22] [INFO]    Node node3 connected from 127.0.0.1:9003
+[2025-07-17 04:40:22] [INFO]    Manager: handling persistent connection for node node3 (socket: 7) to persistent handler.
+[2025-07-17 04:40:36] [INFO]    Received task: Task_1:Workload_1
+[2025-07-17 04:40:36] [INFO]    Assigned Task_1:Workload_1 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Received task: Task_2:Workload_2
+[2025-07-17 04:40:36] [INFO]    Received task: Task_3:Workload_3
+[2025-07-17 04:40:36] [INFO]    Assigned Task_2:Workload_2 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Assigned Task_3:Workload_3 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Received task: Task_4:Workload_4
+[2025-07-17 04:40:36] [INFO]    Received task: Task_5:Workload_5
+[2025-07-17 04:40:36] [INFO]    Assigned Task_4:Workload_4 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Assigned Task_5:Workload_5 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Received task: Task_6:Workload_6
+[2025-07-17 04:40:36] [INFO]    Received task: Task_7:Workload_7
+[2025-07-17 04:40:36] [INFO]    Assigned Task_6:Workload_6 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Assigned Task_7:Workload_7 to node1 at port 9001
+[2025-07-17 04:40:36] [INFO]    Received task: Task_8:Workload_8
+[2025-07-17 04:40:36] [INFO]    Received task: Task_9:Workload_9
+[2025-07-17 04:41:27] [INFO]    Assigned Task_8:Workload_8 to node1 at port 9001
+[2025-07-17 04:40:38] [INFO]    Assigned Task_9:Workload_9 to node1 at port 9001
+[2025-07-17 04:40:38] [INFO]    Received task: Task_10:Workload_10
+[2025-07-17 04:40:38] [INFO]    Manager: Task Task_1:Workload_1 marked as completed by node1
+[2025-07-17 04:40:38] [INFO]    Assigned Task_10:Workload_10 to node1 at port 9001
+[2025-07-17 04:40:39] [INFO]    Manager: Task Task_2:Workload_2 marked as completed by node1
+[2025-07-17 04:40:39] [INFO]    Manager: Task Task_3:Workload_3 marked as completed by node1
+[2025-07-17 04:40:39] [WARN]    Node node1 disconnected unexpectedly.
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_10:Workload_10 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_4:Workload_4 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_5:Workload_5 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_6:Workload_6 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_7:Workload_7 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_8:Workload_8 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Reassigning task Task_9:Workload_9 from failed node node1
+[2025-07-17 04:40:39] [INFO]    Assigned Task_10:Workload_10 to node2 at port 9002
+[2025-07-17 04:40:39] [INFO]    Assigned Task_4:Workload_4 to node2 at port 9002
+[2025-07-17 04:40:39] [INFO]    Assigned Task_5:Workload_5 to node2 at port 9002
+[2025-07-17 04:40:39] [INFO]    Assigned Task_6:Workload_6 to node2 at port 9002
+[2025-07-17 04:40:39] [INFO]    Assigned Task_7:Workload_7 to node2 at port 9002
+[2025-07-17 04:40:39] [INFO]    Assigned Task_8:Workload_8 to node2 at port 9002
+[2025-07-17 04:40:39] [INFO]    Assigned Task_9:Workload_9 to node2 at port 9002
+[2025-07-17 04:40:41] [INFO]    Manager: Task Task_10:Workload_10 marked as completed by node2
+[2025-07-17 04:40:41] [INFO]    Manager: Task Task_4:Workload_4 marked as completed by node2
+[2025-07-17 04:40:42] [WARN]    Node node2 disconnected unexpectedly.
+[2025-07-17 04:40:42] [INFO]    Reassigning task Task_5:Workload_5 from failed node node2
+[2025-07-17 04:40:42] [INFO]    Reassigning task Task_6:Workload_6 from failed node node2
+[2025-07-17 04:40:42] [INFO]    Reassigning task Task_7:Workload_7 from failed node node2
+[2025-07-17 04:40:42] [INFO]    Reassigning task Task_8:Workload_8 from failed node node2
+[2025-07-17 04:40:42] [INFO]    Reassigning task Task_9:Workload_9 from failed node node2
+[2025-07-17 04:40:42] [INFO]    Assigned Task_5:Workload_5 to node3 at port 9003
+[2025-07-17 04:40:42] [INFO]    Assigned Task_6:Workload_6 to node3 at port 9003
+[2025-07-17 04:40:42] [INFO]    Assigned Task_7:Workload_7 to node3 at port 9003
+[2025-07-17 04:40:42] [INFO]    Assigned Task_8:Workload_8 to node3 at port 9003
+[2025-07-17 04:40:42] [INFO]    Assigned Task_9:Workload_9 to node3 at port 9003
+[2025-07-17 04:40:44] [INFO]    Manager: Task Task_5:Workload_5 marked as completed by node3
+[2025-07-17 04:40:45] [INFO]    Manager: Task Task_6:Workload_6 marked as completed by node3
+[2025-07-17 04:40:45] [INFO]    Manager: Task Task_7:Workload_7 marked as completed by node3
+[2025-07-17 04:40:47] [INFO]    Manager: Task Task_8:Workload_8 marked as completed by node3
+[2025-07-17 04:41:37] [INFO]    Manager: Task Task_9:Workload_9 marked as completed by node3
+[2025-07-17 04:41:39] [INFO]    Caught signal 2. Shutting down manager...
+[2025-07-17 04:41:39] [INFO]    Manager: Shutdown complete.

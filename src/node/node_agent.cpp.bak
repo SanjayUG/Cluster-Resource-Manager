@@ -1,0 +1,129 @@
+#include <arpa/inet.h>
+#include <csignal>
+#include <cstring>
+#include <fcntl.h>
+#include <iostream>
+#include <mutex>
+#include <netinet/in.h>
+#include <sstream>
+#include <string>
+#include <sys/socket.h>
+#include <thread>
+#include <unistd.h>
+#include <atomic>
+#include <ctime>
+
+std::string node_id;
+int task_listener_fd = -1;
+int manager_fd = -1;
+std::atomic<bool> running{true};
+
+void log(const std::string &level, const std::string &msg) {
+    auto t = std::time(nullptr);
+    char buf[100];
+    std::strftime(buf, sizeof(buf), "[%F %T]", std::localtime(&t));
+    std::cout << buf << " [" << level << "]    " << msg << std::endl;
+}
+
+void signal_handler(int signum) {
+    log("INFO", "Caught signal " + std::to_string(signum) + ". Shutting down node...");
+    running = false;
+    log("INFO", "Node " + node_id + ": Shutting down...");
+    if (manager_fd != -1) close(manager_fd);
+    if (task_listener_fd != -1) close(task_listener_fd);
+    exit(0);
+}
+
+void execute_task(const std::string &task) {
+    log("INFO", "Node " + node_id + ": Received task: " + task);
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+    log("INFO", "Node " + node_id + ": Completed task: " + task);
+
+    // ✅ Send TASK_DONE <task> to manager
+    std::string done_msg = "TASK_DONE " + task;
+    send(manager_fd, done_msg.c_str(), done_msg.length(), 0);
+}
+
+void task_listener(int port) {
+    sockaddr_in server_addr{}, client_addr{};
+    socklen_t client_len = sizeof(client_addr);
+    task_listener_fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (task_listener_fd < 0) {
+        log("ERROR", "Node " + node_id + ": Failed to create task listener socket.");
+        return;
+    }
+
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    server_addr.sin_port = htons(port);
+
+    if (bind(task_listener_fd, (sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+        log("ERROR", "Node " + node_id + ": Bind failed on task port.");
+        return;
+    }
+
+    listen(task_listener_fd, 5);
+    log("INFO", "Node " + node_id + ": Listening for tasks on port " + std::to_string(port) + "...");
+
+    while (running) {
+        int client_fd = accept(task_listener_fd, (sockaddr *)&client_addr, &client_len);
+        if (client_fd < 0) continue;
+
+        char buffer[1024] = {0};
+        ssize_t valread = read(client_fd, buffer, 1024);
+        std::string task(buffer, valread);
+
+        if (task == "SHUTDOWN") {
+            log("INFO", "Node " + node_id + ": Received shutdown signal from manager.");
+            running = false;
+            close(client_fd);
+            break;
+        } else {
+            execute_task(task);
+        }
+
+        close(client_fd);
+    }
+}
+
+int main(int argc, char* argv[]) {
+    if (argc != 5) {
+        std::cerr << "Usage: " << argv[0] << " <node_id> <manager_ip> <manager_port> <listen_port>\n";
+        return 1;
+    }
+
+    signal(SIGINT, signal_handler);  // Register Ctrl+C handler
+
+    node_id = argv[1];
+    std::string manager_ip = argv[2];
+    int manager_port = std::stoi(argv[3]);
+    int task_port = std::stoi(argv[4]);
+
+    log("INFO", "NodeAgent " + node_id + ": initialized.");
+
+    // Connect to Manager
+    sockaddr_in manager_addr{};
+    manager_fd = socket(AF_INET, SOCK_STREAM, 0);
+    manager_addr.sin_family = AF_INET;
+    manager_addr.sin_port = htons(manager_port);
+    inet_pton(AF_INET, manager_ip.c_str(), &manager_addr.sin_addr);
+
+    if (connect(manager_fd, (sockaddr *)&manager_addr, sizeof(manager_addr)) < 0) {
+        log("ERROR", "Node " + node_id + ": Could not connect to manager.");
+        return 1;
+    }
+
+    log("INFO", "Node " + node_id + ": Connected to manager at " + manager_ip + ":" + std::to_string(manager_port));
+
+    // Send registration
+    std::string reg_msg = "REGISTER " + node_id + " " + std::to_string(task_port);
+    send(manager_fd, reg_msg.c_str(), reg_msg.length(), 0);
+    log("INFO", "Node " + node_id + ": Sent registration message to manager.");
+
+    // Start task listener
+    std::thread listener(task_listener, task_port);
+    listener.join();
+
+    log("INFO", "Node " + node_id + ": Shutdown complete.");
+    return 0;
+}

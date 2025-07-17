@@ -1,0 +1,6 @@
+# constants.py
+
+MANAGER_HOST = "localhost"
+MANAGER_PORT = 5000
+NODE_BASE_PORT = 6000
+NUM_NODES = 3
