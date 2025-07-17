@@ -1,3 +1,5 @@
+## CLUSTER RESOURCE MANAGER
+
 This project implements a **Cluster Resource Manager** in C++ that manages task allocation across a distributed set of nodes. It simulates a simplified real-world cluster system, including task scheduling, health monitoring, load handling, and failover recovery.
 
 ---
