@@ -18,11 +18,11 @@
 *Terminals 2,3,4 respectively:*
 
 7. cd ClusterResourceManager
-8. ./build/node\_agent node1 127.0.0.1 8080 9001
+8. ./build/node\_agent node1 127.0.0.1 5000 9001
    
-   ./build/node\_agent node2 127.0.0.1 8080 9002
+   ./build/node\_agent node2 127.0.0.1 5000 9002
    
-   ./build/node\_agent node3 127.0.0.1 8080 9003
+   ./build/node\_agent node3 127.0.0.1 5000 9003
    
    (Each node will also log to its own file)
 
@@ -37,7 +37,9 @@
 11. To Demonstrate Failover:
     - Go to one of the Node Agent terminals (e.g., node2) and press Ctrl+C to terminate the process.
 
-    - In the Manager Terminal, after a few seconds the manager will detect that node2 is unresponsive and mark it as DOWN and will re-queue any tasks that were running on node2 and 	  attempt to re-assign them to other available nodes (node1, node3).
+    - In the Manager Terminal, you will see a log message indicating that the connection to node2 was lost (e.g., ERROR: Lost connection to Node node2).
+      It will then automatically detect the failure, mark node2 as inactive, and reassign any incomplete tasks to the next available healthy node (e.g., node1 or node3).
+      A message like Reassigning task TASK_X from failed Node node2 to Node node3 confirms the failover and recovery mechanism is working.
 
 12. Cleanup:
     - Press Ctrl+C in all terminals.
