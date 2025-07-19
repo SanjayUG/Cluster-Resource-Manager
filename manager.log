@@ -4268,3 +4268,7 @@
 [2025-07-19 12:50:25] [INFO]    Manager: Task Task_162 marked as completed by node1
 [2025-07-19 12:50:25] [INFO]    Manager: Task Task_163 marked as completed by node1
 [2025-07-19 12:50:27] [INFO]    Manager: Task Task_146 marked as completed by node1
+[2025-07-19 12:55:32] [INFO]    Caught signal 2. Shutting down manager...
+[2025-07-19 12:55:32] [INFO]    Manager: Shutdown complete.
+[2025-07-19 12:55:32] [INFO]    Manager: Shutdown complete.
+[2025-07-19 12:55:32] [WARN]    Node node2 disconnected unexpectedly.
