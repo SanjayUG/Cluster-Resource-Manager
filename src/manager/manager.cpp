@@ -29,7 +29,7 @@ struct NodeInfo {
     std::string ip;
     int port;
     int sockfd;
-    bool available = true;
+    int available_memory = 0; // in MB
 };
 
 enum class TaskStatus { QUEUED, ASSIGNED, COMPLETED };
@@ -38,6 +38,8 @@ struct TaskEntry {
     std::string task;
     TaskStatus status;
     std::string assigned_node;
+    int memory_required; // in MB
+    std::vector<std::string> dependencies; // task IDs this task depends on
 };
 
 std::map<std::string, NodeInfo> nodes;
@@ -107,7 +109,6 @@ void assign_tasks() {
             bool assigned = false;
 
             std::string task = task_queue.front();
-
             auto it = tasks.find(task);
             if (it != tasks.end() && it->second.status == TaskStatus::COMPLETED) {
                 log("INFO", "Skipping already completed task " + task);
@@ -115,8 +116,9 @@ void assign_tasks() {
                 continue;
             }
 
+            int mem_needed = it->second.memory_required;
             for (auto &[id, node] : nodes) {
-                if (node.available) {
+                if (node.available_memory >= mem_needed) {
                     sockaddr_in node_addr{};
                     node_addr.sin_family = AF_INET;
                     node_addr.sin_port = htons(node.port);
@@ -131,9 +133,11 @@ void assign_tasks() {
                     send(sockfd, task.c_str(), task.size(), 0);
                     close(sockfd);
 
-                    log("INFO", "Assigned " + task + " to " + id + " at port " + std::to_string(node.port));
+                    log("INFO", "Assigned " + task + " to " + id + " at port " + std::to_string(node.port) + " (" + std::to_string(mem_needed) + " MB)");
 
-                    tasks[task] = TaskEntry{task, TaskStatus::ASSIGNED, id};
+                    tasks[task].status = TaskStatus::ASSIGNED;
+                    tasks[task].assigned_node = id;
+                    node.available_memory -= mem_needed;
                     task_queue.pop();
                     assigned = true;
                     break;
@@ -151,7 +155,8 @@ void handle_node(int client_sock) {
     std::istringstream iss(buffer);
     std::string command, node_id;
     int port;
-    iss >> command >> node_id >> port;
+    int available_memory = 0;
+    iss >> command >> node_id >> port >> available_memory;
 
     sockaddr_in addr;
     socklen_t len = sizeof(addr);
@@ -159,12 +164,12 @@ void handle_node(int client_sock) {
     std::string ip = inet_ntoa(addr.sin_addr);
 
     if (command == "REGISTER") {
-        NodeInfo node{node_id, ip, port, client_sock, true};
+        NodeInfo node{node_id, ip, port, client_sock, available_memory};
         {
             std::lock_guard<std::mutex> lock(node_mutex);
             nodes[node_id] = node;
         }
-        log("INFO", "Node " + node_id + " connected from " + ip + ":" + std::to_string(port));
+        log("INFO", "Node " + node_id + " connected from " + ip + ":" + std::to_string(port) + " with " + std::to_string(available_memory) + " MB memory");
         log("INFO", "Manager: handling persistent connection for node " + node_id +
                     " (socket: " + std::to_string(client_sock) + ") to persistent handler.");
     }
@@ -183,6 +188,11 @@ void handle_node(int client_sock) {
                     std::lock_guard<std::mutex> lock(task_mutex);
                     auto &entry = tasks[task];
                     entry.status = TaskStatus::COMPLETED;
+                    // Restore memory to node
+                    auto n_it = nodes.find(node_id);
+                    if (n_it != nodes.end()) {
+                        n_it->second.available_memory += entry.memory_required;
+                    }
                     log("INFO", "Manager: Task " + task + " marked as completed by " + node_id);
                 }
             }
@@ -199,6 +209,11 @@ void handle_node(int client_sock) {
                         entry.status = TaskStatus::QUEUED;
                         entry.assigned_node.clear();
                         task_queue.push(task_id);
+                        // Restore memory to node (if node comes back)
+                        auto n_it = nodes.find(node_id);
+                        if (n_it != nodes.end()) {
+                            n_it->second.available_memory += entry.memory_required;
+                        }
                     }
                 }
 
@@ -228,13 +243,23 @@ void handle_client(int client_sock) {
         std::lock_guard<std::mutex> lock(task_mutex);
         while (std::getline(iss, line)) {
             if (line.empty()) continue;
-            if (tasks.find(line) != tasks.end() && tasks[line].status == TaskStatus::COMPLETED) {
-                log("INFO", "Ignoring already completed task: " + line);
+            // Parse task string: task_id:workload:memory:dependencies
+            std::istringstream lss(line);
+            std::string task_id, workload, memory_str, deps_str;
+            std::getline(lss, task_id, ':');
+            std::getline(lss, workload, ':');
+            std::getline(lss, memory_str, ':');
+            std::getline(lss, deps_str, ':');
+            int memory = memory_str.empty() ? 128 : std::stoi(memory_str);
+            std::vector<std::string> deps;
+            // For prototype, dependencies are empty
+            if (tasks.find(task_id) != tasks.end() && tasks[task_id].status == TaskStatus::COMPLETED) {
+                log("INFO", "Ignoring already completed task: " + task_id);
                 continue;
             }
-            tasks[line] = TaskEntry{line, TaskStatus::QUEUED, ""};
-            task_queue.push(line);
-            log("INFO", "Received task: " + line);
+            tasks[task_id] = TaskEntry{task_id, TaskStatus::QUEUED, "", memory, deps};
+            task_queue.push(task_id);
+            log("INFO", "Received task: " + task_id + " (" + std::to_string(memory) + " MB)");
         }
     }
     close(client_sock);

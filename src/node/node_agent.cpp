@@ -144,9 +144,10 @@ int main(int argc, char* argv[]) {
 
     log("INFO", "Node " + node_id + ": Connected to manager at " + manager_ip + ":" + std::to_string(manager_port));
 
-    std::string reg_msg = "REGISTER " + node_id + " " + std::to_string(task_port);
+    int available_memory_mb = 512; // For prototype, hardcoded
+    std::string reg_msg = "REGISTER " + node_id + " " + std::to_string(task_port) + " " + std::to_string(available_memory_mb);
     send(manager_fd, reg_msg.c_str(), reg_msg.length(), 0);
-    log("INFO", "Node " + node_id + ": Sent registration message to manager.");
+    log("INFO", "Node " + node_id + ": Sent registration message to manager with memory info.");
 
     std::thread listener(task_listener, task_port);
     listener.join();

@@ -5,6 +5,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <cstring>
+#include <random>
 
 #define BUFFER_SIZE 1024
 
@@ -18,7 +19,12 @@ int main(int argc, char* argv[]) {
     int manager_port = std::stoi(argv[2]);
     int num_tasks = std::stoi(argv[3]);
 
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> mem_dist(6, 126);
+
     for (int i = 1; i <= num_tasks; ++i) {
+        int mem_req = mem_dist(gen);
         int sock = socket(AF_INET, SOCK_STREAM, 0);
         if (sock < 0) {
             std::cerr << "Error creating socket\n";
@@ -36,7 +42,7 @@ int main(int argc, char* argv[]) {
             continue;
         }
 
-        std::string task = "Task_" + std::to_string(i) + ":Workload_" + std::to_string(i);
+        std::string task = "Task_" + std::to_string(i) + ":Workload_" + std::to_string(i) + ":" + std::to_string(mem_req) + "mb"; // random MB, no dependencies
         send(sock, task.c_str(), task.size(), 0);
         close(sock);
         std::cout << "[CLIENT] Sent: " << task << "\n";

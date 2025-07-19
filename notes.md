@@ -11,25 +11,25 @@
 5. make
    
    This will create the build directory and the executables (cluster\_manager, node\_agent, task\_client) inside it. It will also create the logs directory.
-7. ./build/cluster\_manager
+7. ./build/manager
 8. Open multiple new terminal windows for each node agent (Ex:3 nodes)
 
 
 *Terminals 2,3,4 respectively:*
 
 7. cd ClusterResourceManager
-8. ./build/node\_agent node1 127.0.0.1 5000 9001
+8. ./build/node_agent node1 127.0.0.1 5000 9001
    
-   ./build/node\_agent node2 127.0.0.1 5000 9002
+   ./build/node_agent node2 127.0.0.1 5000 9002
    
-   ./build/node\_agent node3 127.0.0.1 5000 9003
+   ./build/node_agent node3 127.0.0.1 5000 9003
    
    (Each node will also log to its own file)
 
 
 *Terminal 5:*
 
-9. ./build/task\_client 127.0.0.1 8080 10
+9. ./build/client 127.0.0.1 5000 10
     
    This will submit 10 tasks. It will also schedule, and assign it to nodes.
 
