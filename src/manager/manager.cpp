@@ -149,6 +149,55 @@ void assign_tasks() {
     }
 }
 
+void health_monitor() {
+    while (running) {
+        std::this_thread::sleep_for(std::chrono::seconds(10));
+        std::vector<std::string> down_nodes;
+        {
+            std::lock_guard<std::mutex> lock(node_mutex);
+            for (auto &[id, node] : nodes) {
+                sockaddr_in node_addr{};
+                node_addr.sin_family = AF_INET;
+                node_addr.sin_port = htons(node.port);
+                inet_pton(AF_INET, node.ip.c_str(), &node_addr.sin_addr);
+                int sockfd = socket(AF_INET, SOCK_STREAM, 0);
+                bool alive = false;
+                if (sockfd >= 0 && connect(sockfd, (sockaddr *)&node_addr, sizeof(node_addr)) == 0) {
+                    alive = true;
+                    close(sockfd);
+                }
+                if (!alive) {
+                    down_nodes.push_back(id);
+                }
+            }
+        }
+        if (!down_nodes.empty()) {
+            for (const auto &id : down_nodes) {
+                log("WARN", "HealthMonitor: Node " + id + " is DOWN. Reallocating its unfinished tasks.");
+                // Requeue unfinished tasks
+                std::lock_guard<std::mutex> lock(task_mutex);
+                for (auto &[task_id, entry] : tasks) {
+                    if (entry.assigned_node == id && entry.status != TaskStatus::COMPLETED) {
+                        entry.status = TaskStatus::QUEUED;
+                        entry.assigned_node.clear();
+                        task_queue.push(task_id);
+                    }
+                }
+                // Remove node from nodes map
+                std::lock_guard<std::mutex> nlock(node_mutex);
+                nodes.erase(id);
+            }
+        }
+        // If no nodes are available, notify manager
+        {
+            std::lock_guard<std::mutex> lock(node_mutex);
+            if (nodes.empty()) {
+                log("ERROR", "HealthMonitor: No node_agent is active!");
+            }
+        }
+    }
+}
+
 void handle_node(int client_sock) {
     char buffer[1024] = {0};
     read(client_sock, buffer, sizeof(buffer));
@@ -308,6 +357,7 @@ int main(int argc, char* argv[]) {
     log("INFO", "Manager listening on 127.0.0.1:" + std::to_string(port));
 
     std::thread assign_thread(assign_tasks);
+    std::thread health_thread(health_monitor);
 
     while (running) {
         sockaddr_in client_addr{};
@@ -327,6 +377,7 @@ int main(int argc, char* argv[]) {
     }
 
     assign_thread.join();
+    health_thread.join();
     close(server_fd);
     return 0;
 }

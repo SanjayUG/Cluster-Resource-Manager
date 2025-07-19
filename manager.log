@@ -2168,3 +2168,2103 @@
 [2025-07-19 11:52:12] [INFO]    Manager: Task Task_155 marked as completed by node2
 [2025-07-19 11:52:13] [INFO]    Manager: Task Task_159 marked as completed by node1
 [2025-07-19 11:52:13] [INFO]    Manager: Task Task_160 marked as completed by node2
+[2025-07-19 12:30:51] [INFO]    Manager starting...
+[2025-07-19 12:30:51] [INFO]    Manager listening on 127.0.0.1:5000
+[2025-07-19 12:30:56] [INFO]    Node node1 connected from 127.0.0.1:9001 with 512 MB memory
+[2025-07-19 12:30:56] [INFO]    Manager: handling persistent connection for node node1 (socket: 5) to persistent handler.
+[2025-07-19 12:31:00] [INFO]    Node node2 connected from 127.0.0.1:9002 with 512 MB memory
+[2025-07-19 12:31:00] [INFO]    Manager: handling persistent connection for node node2 (socket: 6) to persistent handler.
+[2025-07-19 12:31:10] [INFO]    Received task: Task_1 (19 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_1 to node1 at port 9001 (19 MB)
+[2025-07-19 12:31:10] [INFO]    Received task: Task_2 (66 MB)
+[2025-07-19 12:31:10] [INFO]    Received task: Task_3 (67 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_2 to node1 at port 9001 (66 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_3 to node1 at port 9001 (67 MB)
+[2025-07-19 12:31:10] [INFO]    Received task: Task_4 (94 MB)
+[2025-07-19 12:31:10] [INFO]    Received task: Task_5 (90 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_4 to node1 at port 9001 (94 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_5 to node1 at port 9001 (90 MB)
+[2025-07-19 12:31:10] [INFO]    Received task: Task_6 (7 MB)
+[2025-07-19 12:31:10] [INFO]    Received task: Task_7 (98 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_6 to node1 at port 9001 (7 MB)
+[2025-07-19 12:31:10] [INFO]    Assigned Task_7 to node1 at port 9001 (98 MB)
+[2025-07-19 12:31:11] [INFO]    Received task: Task_8 (47 MB)
+[2025-07-19 12:31:11] [INFO]    Received task: Task_9 (13 MB)
+[2025-07-19 12:33:00] [INFO]    Assigned Task_8 to node1 at port 9001 (47 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_9 to node1 at port 9001 (13 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_10 (49 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_11 (29 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_12 (16 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_13 (83 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_14 (106 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_15 (122 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_16 (99 MB)
+[2025-07-19 12:31:13] [INFO]    Manager: Task Task_1 marked as completed by node1
+[2025-07-19 12:31:13] [INFO]    Received task: Task_17 (22 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_18 (102 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_19 (53 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_20 (101 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_21 (63 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_22 (61 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_23 (58 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_24 (63 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_25 (47 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_26 (108 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_27 (50 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_28 (120 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_29 (85 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_30 (115 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_31 (27 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_10 to node2 at port 9002 (49 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_11 to node1 at port 9001 (29 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_12 to node2 at port 9002 (16 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_13 to node2 at port 9002 (83 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_14 to node2 at port 9002 (106 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_15 to node2 at port 9002 (122 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_16 to node2 at port 9002 (99 MB)
+[2025-07-19 12:31:13] [INFO]    Assigned Task_17 to node2 at port 9002 (22 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_32 (48 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_33 (73 MB)
+[2025-07-19 12:31:13] [INFO]    Received task: Task_34 (80 MB)
+[2025-07-19 12:31:13] [INFO]    Manager: Task Task_2 marked as completed by node1
+[2025-07-19 12:31:13] [INFO]    Manager: Task Task_3 marked as completed by node1
+[2025-07-19 12:31:13] [INFO]    Received task: Task_35 (67 MB)
+[2025-07-19 12:31:14] [INFO]    Assigned Task_18 to node1 at port 9001 (102 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_36 (102 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_37 (53 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_38 (100 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_39 (24 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_40 (48 MB)
+[2025-07-19 12:31:14] [INFO]    Ignoring already completed task: Task_1
+[2025-07-19 12:31:14] [INFO]    Received task: Task_41 (94 MB)
+[2025-07-19 12:31:14] [INFO]    Ignoring already completed task: Task_2
+[2025-07-19 12:31:14] [INFO]    Received task: Task_42 (45 MB)
+[2025-07-19 12:31:14] [INFO]    Ignoring already completed task: Task_3
+[2025-07-19 12:31:14] [INFO]    Received task: Task_43 (107 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_4 (94 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_44 (112 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_5 (21 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_45 (122 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_6 (111 MB)
+[2025-07-19 12:31:14] [INFO]    Manager: Task Task_4 marked as completed by node1
+[2025-07-19 12:31:14] [INFO]    Received task: Task_46 (56 MB)
+[2025-07-19 12:31:14] [INFO]    Received task: Task_7 (100 MB)
+[2025-07-19 12:31:14] [INFO]    Manager: Task Task_10 marked as completed by node2
+[2025-07-19 12:31:15] [INFO]    Received task: Task_47 (13 MB)
+[2025-07-19 12:31:15] [INFO]    Received task: Task_8 (63 MB)
+[2025-07-19 12:31:15] [INFO]    Received task: Task_48 (110 MB)
+[2025-07-19 12:31:16] [INFO]    Assigned Task_19 to node1 at port 9001 (53 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_9 (9 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_49 (22 MB)
+[2025-07-19 12:31:16] [INFO]    Ignoring already completed task: Task_10
+[2025-07-19 12:31:16] [INFO]    Received task: Task_50 (102 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_11 (119 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_51 (92 MB)
+[2025-07-19 12:31:16] [INFO]    Manager: Task Task_5 marked as completed by node1
+[2025-07-19 12:31:16] [INFO]    Received task: Task_12 (105 MB)
+[2025-07-19 12:31:16] [INFO]    Manager: Task Task_12 marked as completed by node2
+[2025-07-19 12:31:16] [INFO]    Received task: Task_52 (124 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_13 (64 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_53 (62 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_14 (83 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_54 (11 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_15 (33 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_55 (10 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_16 (91 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_56 (14 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_17 (72 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_57 (94 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_18 (22 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_58 (90 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_19 (79 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_59 (58 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_20 (52 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_60 (51 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_21 (90 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_61 (105 MB)
+[2025-07-19 12:31:16] [INFO]    Assigned Task_20 to node1 at port 9001 (52 MB)
+[2025-07-19 12:31:16] [INFO]    Assigned Task_21 to node2 at port 9002 (90 MB)
+[2025-07-19 12:31:16] [INFO]    Assigned Task_22 to node2 at port 9002 (61 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_22 (12 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_62 (13 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_23 (121 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_63 (117 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_24 (80 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_64 (109 MB)
+[2025-07-19 12:31:16] [INFO]    Manager: Task Task_6 marked as completed by node1
+[2025-07-19 12:31:16] [INFO]    Manager: Task Task_13 marked as completed by node2
+[2025-07-19 12:31:16] [INFO]    Received task: Task_25 (104 MB)
+[2025-07-19 12:31:16] [INFO]    Received task: Task_65 (83 MB)
+[2025-07-19 12:31:18] [INFO]    Assigned Task_23 to node1 at port 9001 (121 MB)
+[2025-07-19 12:31:18] [INFO]    Assigned Task_24 to node2 at port 9002 (80 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_26 (62 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_66 (69 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_27 (49 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_67 (64 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_28 (41 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_68 (90 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_29 (121 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_69 (38 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_30 (118 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_70 (32 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_31 (25 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_71 (40 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_32 (48 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_72 (13 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_33 (45 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_73 (38 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_34 (14 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_74 (33 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_35 (63 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_75 (70 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_36 (92 MB)
+[2025-07-19 12:31:18] [INFO]    Manager: Task Task_7 marked as completed by node1
+[2025-07-19 12:31:18] [INFO]    Received task: Task_76 (13 MB)
+[2025-07-19 12:31:18] [INFO]    Manager: Task Task_14 marked as completed by node2
+[2025-07-19 12:31:18] [INFO]    Received task: Task_37 (71 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_77 (123 MB)
+[2025-07-19 12:31:18] [INFO]    Received task: Task_38 (42 MB)
+[2025-07-19 12:31:19] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:31:19] [INFO]    Received task: Task_78 (70 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_39 (96 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_79 (39 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_40 (8 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_80 (122 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_41 (116 MB)
+[2025-07-19 12:31:19] [INFO]    Manager: Task Task_8 marked as completed by node1
+[2025-07-19 12:31:19] [INFO]    Received task: Task_81 (9 MB)
+[2025-07-19 12:31:19] [INFO]    Manager: Task Task_15 marked as completed by node2
+[2025-07-19 12:31:19] [INFO]    Received task: Task_42 (75 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_82 (91 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_43 (109 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_83 (8 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_44 (15 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_84 (9 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_45 (21 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_85 (87 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_46 (27 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_86 (94 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_47 (104 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_87 (12 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_48 (48 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_88 (14 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_49 (122 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_89 (9 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_50 (30 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_90 (7 MB)
+[2025-07-19 12:31:19] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:31:19] [INFO]    Assigned Task_25 to node2 at port 9002 (104 MB)
+[2025-07-19 12:31:19] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:31:19] [INFO]    Received task: Task_51 (116 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_91 (117 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_52 (25 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_92 (93 MB)
+[2025-07-19 12:31:19] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:31:19] [INFO]    Received task: Task_53 (85 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_93 (114 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_54 (20 MB)
+[2025-07-19 12:31:19] [WARN]    Node node1 disconnected unexpectedly.
+[2025-07-19 12:31:19] [INFO]    Reassigning task Task_20 from failed node node1
+[2025-07-19 12:31:19] [INFO]    Reassigning task Task_23 from failed node node1
+[2025-07-19 12:31:19] [INFO]    Manager: Task Task_16 marked as completed by node2
+[2025-07-19 12:31:19] [INFO]    Received task: Task_94 (20 MB)
+[2025-07-19 12:31:19] [INFO]    Assigned Task_26 to node2 at port 9002 (62 MB)
+[2025-07-19 12:31:19] [INFO]    Received task: Task_55 (99 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_95 (48 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_56 (60 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_96 (82 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_57 (92 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_97 (35 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_58 (75 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_98 (25 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_59 (120 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_99 (57 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_60 (40 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_100 (40 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_61 (12 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_101 (41 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_62 (66 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_102 (121 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_63 (125 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_103 (13 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_64 (121 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_104 (113 MB)
+[2025-07-19 12:31:20] [INFO]    Received task: Task_65 (72 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_105 (25 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_66 (95 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_106 (106 MB)
+[2025-07-19 12:31:21] [INFO]    Manager: Task Task_17 marked as completed by node2
+[2025-07-19 12:31:21] [INFO]    Assigned Task_27 to node2 at port 9002 (49 MB)
+[2025-07-19 12:31:21] [INFO]    Assigned Task_28 to node2 at port 9002 (41 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_67 (6 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_107 (70 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_68 (103 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_108 (55 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_69 (25 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_109 (59 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_70 (48 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_110 (102 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_71 (118 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_111 (69 MB)
+[2025-07-19 12:31:21] [INFO]    Manager: Task Task_21 marked as completed by node2
+[2025-07-19 12:31:21] [INFO]    Received task: Task_72 (62 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_112 (6 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_73 (118 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_113 (25 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_74 (107 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_114 (58 MB)
+[2025-07-19 12:31:21] [INFO]    Received task: Task_75 (22 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_115 (72 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_76 (67 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_116 (50 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_77 (38 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_117 (33 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_78 (69 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_118 (98 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_79 (93 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_119 (7 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_80 (96 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_120 (86 MB)
+[2025-07-19 12:33:10] [INFO]    Received task: Task_81 (95 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_121 (82 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_82 (111 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_122 (109 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_83 (22 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_123 (89 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_84 (66 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_124 (102 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_85 (92 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_125 (90 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_86 (22 MB)
+[2025-07-19 12:31:22] [INFO]    Received task: Task_126 (47 MB)
+[2025-07-19 12:31:22] [INFO]    Manager: Task Task_22 marked as completed by node2
+[2025-07-19 12:31:23] [INFO]    Assigned Task_29 to node2 at port 9002 (121 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_87 (48 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_127 (105 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_88 (125 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_128 (68 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_89 (79 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_129 (91 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_90 (48 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_130 (121 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_91 (52 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_131 (34 MB)
+[2025-07-19 12:31:23] [INFO]    Manager: Task Task_24 marked as completed by node2
+[2025-07-19 12:31:23] [INFO]    Received task: Task_92 (111 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_132 (24 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_93 (15 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_133 (68 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_94 (111 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_134 (16 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_95 (45 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_135 (19 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_96 (40 MB)
+[2025-07-19 12:31:23] [INFO]    Received task: Task_136 (101 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_97 (46 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_137 (101 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_98 (110 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_138 (95 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_99 (31 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_139 (75 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_100 (40 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_140 (91 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_101 (116 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_141 (44 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_102 (107 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_142 (72 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_103 (121 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_143 (89 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_104 (94 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_144 (77 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_105 (33 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_145 (98 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_106 (113 MB)
+[2025-07-19 12:31:24] [INFO]    Received task: Task_146 (76 MB)
+[2025-07-19 12:31:24] [INFO]    Manager: Task Task_25 marked as completed by node2
+[2025-07-19 12:31:25] [INFO]    Assigned Task_30 to node2 at port 9002 (118 MB)
+[2025-07-19 12:31:25] [INFO]    Assigned Task_31 to node2 at port 9002 (25 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_107 (28 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_147 (33 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_108 (119 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_148 (110 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_149 (61 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_150 (102 MB)
+[2025-07-19 12:31:25] [INFO]    Received task: Task_151 (97 MB)
+[2025-07-19 12:31:25] [INFO]    Manager: Task Task_26 marked as completed by node2
+[2025-07-19 12:31:25] [INFO]    Received task: Task_152 (26 MB)
+[2025-07-19 12:31:25] [INFO]    Assigned Task_32 to node2 at port 9002 (48 MB)
+[2025-07-19 12:31:25] [INFO]    Assigned Task_33 to node2 at port 9002 (45 MB)
+[2025-07-19 12:31:26] [INFO]    Assigned Task_34 to node2 at port 9002 (14 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_153 (44 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_154 (39 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_155 (25 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_156 (68 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_157 (78 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_158 (24 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_159 (72 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_160 (88 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_161 (50 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_162 (112 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_163 (65 MB)
+[2025-07-19 12:31:26] [INFO]    Received task: Task_164 (48 MB)
+[2025-07-19 12:33:15] [INFO]    Manager: Task Task_27 marked as completed by node2
+[2025-07-19 12:31:27] [INFO]    Manager: Task Task_28 marked as completed by node2
+[2025-07-19 12:31:27] [INFO]    Assigned Task_35 to node2 at port 9002 (63 MB)
+[2025-07-19 12:31:29] [INFO]    Manager: Task Task_29 marked as completed by node2
+[2025-07-19 12:31:29] [INFO]    Assigned Task_36 to node2 at port 9002 (92 MB)
+[2025-07-19 12:31:29] [INFO]    Manager: Task Task_30 marked as completed by node2
+[2025-07-19 12:31:29] [INFO]    Assigned Task_37 to node2 at port 9002 (71 MB)
+[2025-07-19 12:31:30] [INFO]    Assigned Task_38 to node2 at port 9002 (42 MB)
+[2025-07-19 12:31:31] [INFO]    Manager: Task Task_31 marked as completed by node2
+[2025-07-19 12:31:31] [INFO]    Manager: Task Task_32 marked as completed by node2
+[2025-07-19 12:31:31] [INFO]    Assigned Task_39 to node2 at port 9002 (96 MB)
+[2025-07-19 12:31:32] [INFO]    Assigned Task_40 to node2 at port 9002 (8 MB)
+[2025-07-19 12:31:33] [INFO]    Manager: Task Task_33 marked as completed by node2
+[2025-07-19 12:31:33] [INFO]    Manager: Task Task_34 marked as completed by node2
+[2025-07-19 12:31:34] [INFO]    Node node1 connected from 127.0.0.1:9001 with 512 MB memory
+[2025-07-19 12:31:34] [INFO]    Manager: handling persistent connection for node node1 (socket: 8) to persistent handler.
+[2025-07-19 12:31:34] [INFO]    Assigned Task_41 to node1 at port 9001 (116 MB)
+[2025-07-19 12:31:34] [INFO]    Assigned Task_42 to node1 at port 9001 (75 MB)
+[2025-07-19 12:31:34] [INFO]    Assigned Task_43 to node1 at port 9001 (109 MB)
+[2025-07-19 12:31:34] [INFO]    Skipping already completed task Task_4
+[2025-07-19 12:31:34] [INFO]    Assigned Task_44 to node1 at port 9001 (15 MB)
+[2025-07-19 12:31:34] [INFO]    Skipping already completed task Task_5
+[2025-07-19 12:31:34] [INFO]    Assigned Task_45 to node1 at port 9001 (21 MB)
+[2025-07-19 12:31:34] [INFO]    Skipping already completed task Task_6
+[2025-07-19 12:31:34] [INFO]    Assigned Task_46 to node1 at port 9001 (27 MB)
+[2025-07-19 12:31:34] [INFO]    Skipping already completed task Task_7
+[2025-07-19 12:31:34] [INFO]    Assigned Task_47 to node1 at port 9001 (104 MB)
+[2025-07-19 12:31:34] [INFO]    Skipping already completed task Task_8
+[2025-07-19 12:31:34] [INFO]    Assigned Task_48 to node2 at port 9002 (48 MB)
+[2025-07-19 12:31:35] [INFO]    Assigned Task_9 to node1 at port 9001 (9 MB)
+[2025-07-19 12:31:35] [INFO]    Manager: Task Task_35 marked as completed by node2
+[2025-07-19 12:31:36] [INFO]    Manager: Task Task_41 marked as completed by node1
+[2025-07-19 12:31:36] [INFO]    Manager: Task Task_36 marked as completed by node2
+[2025-07-19 12:33:25] [INFO]    Assigned Task_49 to node1 at port 9001 (122 MB)
+[2025-07-19 12:31:38] [INFO]    Assigned Task_50 to node1 at port 9001 (30 MB)
+[2025-07-19 12:31:38] [INFO]    Assigned Task_11 to node2 at port 9002 (119 MB)
+[2025-07-19 12:31:38] [INFO]    Manager: Task Task_42 marked as completed by node1
+[2025-07-19 12:31:38] [INFO]    Manager: Task Task_37 marked as completed by node2
+[2025-07-19 12:31:38] [INFO]    Assigned Task_51 to node2 at port 9002 (116 MB)
+[2025-07-19 12:31:38] [INFO]    Skipping already completed task Task_12
+[2025-07-19 12:31:40] [INFO]    Assigned Task_52 to node1 at port 9001 (25 MB)
+[2025-07-19 12:31:40] [INFO]    Skipping already completed task Task_13
+[2025-07-19 12:31:40] [INFO]    Manager: Task Task_43 marked as completed by node1
+[2025-07-19 12:31:40] [INFO]    Manager: Task Task_44 marked as completed by node1
+[2025-07-19 12:31:40] [INFO]    Manager: Task Task_38 marked as completed by node2
+[2025-07-19 12:31:40] [INFO]    Manager: Task Task_39 marked as completed by node2
+[2025-07-19 12:31:40] [INFO]    Assigned Task_53 to node1 at port 9001 (85 MB)
+[2025-07-19 12:31:40] [INFO]    Skipping already completed task Task_14
+[2025-07-19 12:31:41] [INFO]    Assigned Task_54 to node1 at port 9001 (20 MB)
+[2025-07-19 12:31:41] [INFO]    Skipping already completed task Task_15
+[2025-07-19 12:31:41] [INFO]    Assigned Task_55 to node2 at port 9002 (99 MB)
+[2025-07-19 12:31:41] [INFO]    Skipping already completed task Task_16
+[2025-07-19 12:33:30] [INFO]    Assigned Task_56 to node1 at port 9001 (60 MB)
+[2025-07-19 12:33:30] [INFO]    Skipping already completed task Task_17
+[2025-07-19 12:33:30] [INFO]    Manager: Task Task_45 marked as completed by node1
+[2025-07-19 12:33:30] [INFO]    Manager: Task Task_40 marked as completed by node2
+[2025-07-19 12:33:30] [INFO]    Manager: Task Task_46 marked as completed by node1
+[2025-07-19 12:31:42] [INFO]    Manager: Task Task_47 marked as completed by node1
+[2025-07-19 12:31:42] [INFO]    Manager: Task Task_48 marked as completed by node2
+[2025-07-19 12:31:42] [INFO]    Manager: Task Task_11 marked as completed by node2
+[2025-07-19 12:31:43] [INFO]    Assigned Task_57 to node1 at port 9001 (92 MB)
+[2025-07-19 12:31:43] [INFO]    Assigned Task_18 to node1 at port 9001 (22 MB)
+[2025-07-19 12:31:43] [INFO]    Assigned Task_58 to node2 at port 9002 (75 MB)
+[2025-07-19 12:31:43] [INFO]    Assigned Task_19 to node2 at port 9002 (79 MB)
+[2025-07-19 12:31:43] [INFO]    Manager: Task Task_9 marked as completed by node1
+[2025-07-19 12:31:43] [INFO]    Manager: Task Task_51 marked as completed by node2
+[2025-07-19 12:31:44] [INFO]    Assigned Task_59 to node2 at port 9002 (120 MB)
+[2025-07-19 12:31:45] [INFO]    Assigned Task_20 to node1 at port 9001 (52 MB)
+[2025-07-19 12:31:45] [INFO]    Assigned Task_60 to node2 at port 9002 (40 MB)
+[2025-07-19 12:31:45] [INFO]    Skipping already completed task Task_21
+[2025-07-19 12:31:45] [INFO]    Assigned Task_61 to node2 at port 9002 (12 MB)
+[2025-07-19 12:31:45] [INFO]    Skipping already completed task Task_22
+[2025-07-19 12:31:45] [INFO]    Manager: Task Task_49 marked as completed by node1
+[2025-07-19 12:31:45] [INFO]    Manager: Task Task_55 marked as completed by node2
+[2025-07-19 12:31:46] [INFO]    Assigned Task_62 to node1 at port 9001 (66 MB)
+[2025-07-19 12:31:46] [INFO]    Assigned Task_23 to node2 at port 9002 (121 MB)
+[2025-07-19 12:31:46] [INFO]    Manager: Task Task_50 marked as completed by node1
+[2025-07-19 12:31:46] [INFO]    Manager: Task Task_58 marked as completed by node2
+[2025-07-19 12:31:46] [INFO]    Manager: Task Task_52 marked as completed by node1
+[2025-07-19 12:31:46] [INFO]    Manager: Task Task_53 marked as completed by node1
+[2025-07-19 12:31:46] [INFO]    Manager: Task Task_19 marked as completed by node2
+[2025-07-19 12:31:46] [INFO]    Manager: Task Task_59 marked as completed by node2
+[2025-07-19 12:31:46] [INFO]    Assigned Task_63 to node1 at port 9001 (125 MB)
+[2025-07-19 12:31:46] [INFO]    Skipping already completed task Task_24
+[2025-07-19 12:31:46] [INFO]    Assigned Task_64 to node2 at port 9002 (121 MB)
+[2025-07-19 12:31:46] [INFO]    Skipping already completed task Task_25
+[2025-07-19 12:31:47] [INFO]    Assigned Task_65 to node1 at port 9001 (72 MB)
+[2025-07-19 12:31:47] [INFO]    Skipping already completed task Task_26
+[2025-07-19 12:31:47] [INFO]    Assigned Task_66 to node2 at port 9002 (95 MB)
+[2025-07-19 12:31:47] [INFO]    Skipping already completed task Task_27
+[2025-07-19 12:31:47] [INFO]    Assigned Task_67 to node2 at port 9002 (6 MB)
+[2025-07-19 12:31:47] [INFO]    Skipping already completed task Task_28
+[2025-07-19 12:31:48] [INFO]    Manager: Task Task_54 marked as completed by node1
+[2025-07-19 12:31:48] [INFO]    Manager: Task Task_60 marked as completed by node2
+[2025-07-19 12:31:48] [INFO]    Assigned Task_68 to node2 at port 9002 (103 MB)
+[2025-07-19 12:31:48] [INFO]    Skipping already completed task Task_29
+[2025-07-19 12:31:48] [INFO]    Manager: Task Task_56 marked as completed by node1
+[2025-07-19 12:31:48] [INFO]    Manager: Task Task_61 marked as completed by node2
+[2025-07-19 12:31:48] [INFO]    Assigned Task_69 to node1 at port 9001 (25 MB)
+[2025-07-19 12:31:48] [INFO]    Skipping already completed task Task_30
+[2025-07-19 12:31:49] [INFO]    Assigned Task_70 to node1 at port 9001 (48 MB)
+[2025-07-19 12:31:49] [INFO]    Skipping already completed task Task_31
+[2025-07-19 12:31:50] [INFO]    Manager: Task Task_57 marked as completed by node1
+[2025-07-19 12:31:50] [INFO]    Manager: Task Task_23 marked as completed by node2
+[2025-07-19 12:31:50] [INFO]    Assigned Task_71 to node2 at port 9002 (118 MB)
+[2025-07-19 12:31:50] [INFO]    Skipping already completed task Task_32
+[2025-07-19 12:31:51] [INFO]    Assigned Task_72 to node1 at port 9001 (62 MB)
+[2025-07-19 12:31:51] [INFO]    Skipping already completed task Task_33
+[2025-07-19 12:31:51] [INFO]    Manager: Task Task_18 marked as completed by node1
+[2025-07-19 12:31:51] [INFO]    Manager: Task Task_64 marked as completed by node2
+[2025-07-19 12:31:51] [INFO]    Assigned Task_73 to node2 at port 9002 (118 MB)
+[2025-07-19 12:31:51] [INFO]    Skipping already completed task Task_34
+[2025-07-19 12:31:51] [INFO]    Manager: Task Task_20 marked as completed by node1
+[2025-07-19 12:31:51] [INFO]    Manager: Task Task_66 marked as completed by node2
+[2025-07-19 12:33:40] [INFO]    Assigned Task_74 to node1 at port 9001 (107 MB)
+[2025-07-19 12:33:40] [INFO]    Skipping already completed task Task_35
+[2025-07-19 12:33:40] [INFO]    Assigned Task_75 to node2 at port 9002 (22 MB)
+[2025-07-19 12:33:40] [INFO]    Skipping already completed task Task_36
+[2025-07-19 12:33:40] [INFO]    Assigned Task_76 to node2 at port 9002 (67 MB)
+[2025-07-19 12:33:40] [INFO]    Skipping already completed task Task_37
+[2025-07-19 12:31:53] [INFO]    Manager: Task Task_62 marked as completed by node1
+[2025-07-19 12:31:53] [INFO]    Manager: Task Task_67 marked as completed by node2
+[2025-07-19 12:31:53] [INFO]    Assigned Task_77 to node1 at port 9001 (38 MB)
+[2025-07-19 12:31:53] [INFO]    Skipping already completed task Task_38
+[2025-07-19 12:31:53] [INFO]    Manager: Task Task_63 marked as completed by node1
+[2025-07-19 12:31:53] [INFO]    Manager: Task Task_68 marked as completed by node2
+[2025-07-19 12:31:53] [INFO]    Assigned Task_78 to node1 at port 9001 (69 MB)
+[2025-07-19 12:31:53] [INFO]    Skipping already completed task Task_39
+[2025-07-19 12:31:53] [INFO]    Assigned Task_79 to node2 at port 9002 (93 MB)
+[2025-07-19 12:31:53] [INFO]    Skipping already completed task Task_40
+[2025-07-19 12:31:55] [INFO]    Manager: Task Task_65 marked as completed by node1
+[2025-07-19 12:31:55] [INFO]    Manager: Task Task_71 marked as completed by node2
+[2025-07-19 12:31:55] [INFO]    Assigned Task_80 to node1 at port 9001 (96 MB)
+[2025-07-19 12:31:55] [INFO]    Skipping already completed task Task_41
+[2025-07-19 12:31:55] [INFO]    Assigned Task_81 to node2 at port 9002 (95 MB)
+[2025-07-19 12:31:55] [INFO]    Skipping already completed task Task_42
+[2025-07-19 12:31:55] [INFO]    Manager: Task Task_69 marked as completed by node1
+[2025-07-19 12:31:55] [INFO]    Manager: Task Task_73 marked as completed by node2
+[2025-07-19 12:31:55] [INFO]    Assigned Task_82 to node2 at port 9002 (111 MB)
+[2025-07-19 12:31:55] [INFO]    Skipping already completed task Task_43
+[2025-07-19 12:31:55] [INFO]    Assigned Task_83 to node1 at port 9001 (22 MB)
+[2025-07-19 12:31:55] [INFO]    Skipping already completed task Task_44
+[2025-07-19 12:31:56] [INFO]    Assigned Task_84 to node1 at port 9001 (66 MB)
+[2025-07-19 12:31:56] [INFO]    Skipping already completed task Task_45
+[2025-07-19 12:33:45] [INFO]    Manager: Task Task_70 marked as completed by node1
+[2025-07-19 12:33:45] [INFO]    Manager: Task Task_75 marked as completed by node2
+[2025-07-19 12:33:45] [INFO]    Assigned Task_85 to node2 at port 9002 (92 MB)
+[2025-07-19 12:33:45] [INFO]    Skipping already completed task Task_46
+[2025-07-19 12:31:58] [INFO]    Assigned Task_86 to node1 at port 9001 (22 MB)
+[2025-07-19 12:31:58] [INFO]    Skipping already completed task Task_47
+[2025-07-19 12:31:58] [INFO]    Manager: Task Task_72 marked as completed by node1
+[2025-07-19 12:31:58] [INFO]    Manager: Task Task_76 marked as completed by node2
+[2025-07-19 12:31:59] [INFO]    Assigned Task_87 to node1 at port 9001 (48 MB)
+[2025-07-19 12:31:59] [INFO]    Skipping already completed task Task_48
+[2025-07-19 12:31:59] [INFO]    Manager: Task Task_74 marked as completed by node1
+[2025-07-19 12:31:59] [INFO]    Manager: Task Task_79 marked as completed by node2
+[2025-07-19 12:31:59] [INFO]    Assigned Task_88 to node1 at port 9001 (125 MB)
+[2025-07-19 12:31:59] [INFO]    Skipping already completed task Task_49
+[2025-07-19 12:31:59] [INFO]    Assigned Task_89 to node2 at port 9002 (79 MB)
+[2025-07-19 12:31:59] [INFO]    Skipping already completed task Task_50
+[2025-07-19 12:31:59] [INFO]    Assigned Task_90 to node2 at port 9002 (48 MB)
+[2025-07-19 12:31:59] [INFO]    Skipping already completed task Task_51
+[2025-07-19 12:32:00] [INFO]    Manager: Task Task_77 marked as completed by node1
+[2025-07-19 12:32:00] [INFO]    Manager: Task Task_81 marked as completed by node2
+[2025-07-19 12:32:01] [INFO]    Assigned Task_91 to node1 at port 9001 (52 MB)
+[2025-07-19 12:32:01] [INFO]    Skipping already completed task Task_52
+[2025-07-19 12:32:01] [INFO]    Assigned Task_92 to node2 at port 9002 (111 MB)
+[2025-07-19 12:32:01] [INFO]    Skipping already completed task Task_53
+[2025-07-19 12:32:01] [INFO]    Assigned Task_93 to node2 at port 9002 (15 MB)
+[2025-07-19 12:32:01] [INFO]    Skipping already completed task Task_54
+[2025-07-19 12:32:01] [INFO]    Skipping already completed task Task_20
+[2025-07-19 12:32:01] [INFO]    Skipping already completed task Task_23
+[2025-07-19 12:32:01] [INFO]    Manager: Task Task_78 marked as completed by node1
+[2025-07-19 12:32:01] [INFO]    Manager: Task Task_82 marked as completed by node2
+[2025-07-19 12:32:01] [INFO]    Assigned Task_94 to node2 at port 9002 (111 MB)
+[2025-07-19 12:32:01] [INFO]    Skipping already completed task Task_55
+[2025-07-19 12:32:02] [INFO]    Assigned Task_95 to node1 at port 9001 (45 MB)
+[2025-07-19 12:32:02] [INFO]    Skipping already completed task Task_56
+[2025-07-19 12:32:02] [INFO]    Manager: Task Task_80 marked as completed by node1
+[2025-07-19 12:32:02] [INFO]    Manager: Task Task_85 marked as completed by node2
+[2025-07-19 12:32:02] [INFO]    Assigned Task_96 to node1 at port 9001 (40 MB)
+[2025-07-19 12:32:02] [INFO]    Skipping already completed task Task_57
+[2025-07-19 12:32:03] [INFO]    Assigned Task_97 to node1 at port 9001 (46 MB)
+[2025-07-19 12:32:03] [INFO]    Skipping already completed task Task_58
+[2025-07-19 12:32:03] [INFO]    Manager: Task Task_83 marked as completed by node1
+[2025-07-19 12:32:03] [INFO]    Manager: Task Task_89 marked as completed by node2
+[2025-07-19 12:32:04] [INFO]    Assigned Task_98 to node2 at port 9002 (110 MB)
+[2025-07-19 12:32:04] [INFO]    Skipping already completed task Task_59
+[2025-07-19 12:32:05] [INFO]    Assigned Task_99 to node1 at port 9001 (31 MB)
+[2025-07-19 12:32:05] [INFO]    Skipping already completed task Task_60
+[2025-07-19 12:32:05] [INFO]    Assigned Task_100 to node2 at port 9002 (40 MB)
+[2025-07-19 12:32:05] [INFO]    Skipping already completed task Task_61
+[2025-07-19 12:32:05] [INFO]    Manager: Task Task_90 marked as completed by node2
+[2025-07-19 12:32:05] [INFO]    Manager: Task Task_84 marked as completed by node1
+[2025-07-19 12:32:05] [INFO]    Manager: Task Task_92 marked as completed by node2
+[2025-07-19 12:32:05] [INFO]    Manager: Task Task_86 marked as completed by node1
+[2025-07-19 12:32:05] [INFO]    Assigned Task_101 to node1 at port 9001 (116 MB)
+[2025-07-19 12:32:05] [INFO]    Skipping already completed task Task_62
+[2025-07-19 12:32:05] [INFO]    Assigned Task_102 to node2 at port 9002 (107 MB)
+[2025-07-19 12:32:05] [INFO]    Skipping already completed task Task_63
+[2025-07-19 12:32:06] [INFO]    Manager: Task Task_93 marked as completed by node2
+[2025-07-19 12:32:06] [INFO]    Manager: Task Task_87 marked as completed by node1
+[2025-07-19 12:33:55] [INFO]    Manager: Task Task_88 marked as completed by node1
+[2025-07-19 12:33:55] [INFO]    Manager: Task Task_94 marked as completed by node2
+[2025-07-19 12:33:55] [INFO]    Assigned Task_103 to node1 at port 9001 (121 MB)
+[2025-07-19 12:33:55] [INFO]    Skipping already completed task Task_64
+[2025-07-19 12:33:55] [INFO]    Assigned Task_104 to node2 at port 9002 (94 MB)
+[2025-07-19 12:33:55] [INFO]    Skipping already completed task Task_65
+[2025-07-19 12:32:08] [INFO]    Assigned Task_105 to node1 at port 9001 (33 MB)
+[2025-07-19 12:32:08] [INFO]    Skipping already completed task Task_66
+[2025-07-19 12:32:08] [INFO]    Manager: Task Task_91 marked as completed by node1
+[2025-07-19 12:32:08] [INFO]    Manager: Task Task_98 marked as completed by node2
+[2025-07-19 12:32:08] [INFO]    Assigned Task_106 to node2 at port 9002 (113 MB)
+[2025-07-19 12:32:08] [INFO]    Skipping already completed task Task_67
+[2025-07-19 12:32:09] [INFO]    Assigned Task_107 to node1 at port 9001 (28 MB)
+[2025-07-19 12:32:09] [INFO]    Skipping already completed task Task_68
+[2025-07-19 12:32:09] [INFO]    Manager: Task Task_95 marked as completed by node1
+[2025-07-19 12:32:09] [INFO]    Manager: Task Task_100 marked as completed by node2
+[2025-07-19 12:32:09] [INFO]    Assigned Task_108 to node2 at port 9002 (119 MB)
+[2025-07-19 12:32:09] [INFO]    Skipping already completed task Task_69
+[2025-07-19 12:32:09] [INFO]    Assigned Task_109 to node1 at port 9001 (59 MB)
+[2025-07-19 12:32:09] [INFO]    Skipping already completed task Task_70
+[2025-07-19 12:32:10] [INFO]    Manager: Task Task_96 marked as completed by node1
+[2025-07-19 12:32:10] [INFO]    Manager: Task Task_102 marked as completed by node2
+[2025-07-19 12:32:10] [INFO]    Assigned Task_110 to node2 at port 9002 (102 MB)
+[2025-07-19 12:32:10] [INFO]    Skipping already completed task Task_71
+[2025-07-19 12:32:11] [INFO]    Assigned Task_111 to node1 at port 9001 (69 MB)
+[2025-07-19 12:32:11] [INFO]    Skipping already completed task Task_72
+[2025-07-19 12:34:00] [INFO]    Assigned Task_112 to node1 at port 9001 (6 MB)
+[2025-07-19 12:34:00] [INFO]    Skipping already completed task Task_73
+[2025-07-19 12:32:12] [INFO]    Assigned Task_113 to node2 at port 9002 (25 MB)
+[2025-07-19 12:32:12] [INFO]    Skipping already completed task Task_74
+[2025-07-19 12:32:12] [INFO]    Manager: Task Task_97 marked as completed by node1
+[2025-07-19 12:32:12] [INFO]    Manager: Task Task_104 marked as completed by node2
+[2025-07-19 12:32:12] [INFO]    Assigned Task_114 to node2 at port 9002 (58 MB)
+[2025-07-19 12:32:12] [INFO]    Skipping already completed task Task_75
+[2025-07-19 12:32:13] [INFO]    Manager: Task Task_99 marked as completed by node1
+[2025-07-19 12:32:13] [INFO]    Manager: Task Task_101 marked as completed by node1
+[2025-07-19 12:32:13] [INFO]    Manager: Task Task_106 marked as completed by node2
+[2025-07-19 12:32:13] [INFO]    Manager: Task Task_108 marked as completed by node2
+[2025-07-19 12:32:13] [INFO]    Assigned Task_115 to node1 at port 9001 (72 MB)
+[2025-07-19 12:32:13] [INFO]    Skipping already completed task Task_76
+[2025-07-19 12:32:14] [INFO]    Assigned Task_116 to node1 at port 9001 (50 MB)
+[2025-07-19 12:32:14] [INFO]    Skipping already completed task Task_77
+[2025-07-19 12:32:15] [INFO]    Assigned Task_117 to node1 at port 9001 (33 MB)
+[2025-07-19 12:32:15] [INFO]    Skipping already completed task Task_78
+[2025-07-19 12:32:15] [INFO]    Assigned Task_118 to node2 at port 9002 (98 MB)
+[2025-07-19 12:32:15] [INFO]    Skipping already completed task Task_79
+[2025-07-19 12:32:16] [INFO]    Assigned Task_119 to node1 at port 9001 (7 MB)
+[2025-07-19 12:32:16] [INFO]    Skipping already completed task Task_80
+[2025-07-19 12:32:16] [INFO]    Assigned Task_120 to node2 at port 9002 (86 MB)
+[2025-07-19 12:32:16] [INFO]    Skipping already completed task Task_81
+[2025-07-19 12:32:16] [INFO]    Assigned Task_121 to node2 at port 9002 (82 MB)
+[2025-07-19 12:32:16] [INFO]    Skipping already completed task Task_82
+[2025-07-19 12:32:16] [INFO]    Manager: Task Task_103 marked as completed by node1
+[2025-07-19 12:32:16] [INFO]    Manager: Task Task_110 marked as completed by node2
+[2025-07-19 12:34:05] [INFO]    Assigned Task_122 to node1 at port 9001 (109 MB)
+[2025-07-19 12:34:05] [INFO]    Skipping already completed task Task_83
+[2025-07-19 12:34:05] [INFO]    Assigned Task_123 to node2 at port 9002 (89 MB)
+[2025-07-19 12:34:05] [INFO]    Skipping already completed task Task_84
+[2025-07-19 12:34:05] [INFO]    Manager: Task Task_105 marked as completed by node1
+[2025-07-19 12:34:05] [INFO]    Manager: Task Task_107 marked as completed by node1
+[2025-07-19 12:34:05] [INFO]    Manager: Task Task_113 marked as completed by node2
+[2025-07-19 12:34:05] [INFO]    Manager: Task Task_114 marked as completed by node2
+[2025-07-19 12:32:18] [INFO]    Assigned Task_124 to node1 at port 9001 (102 MB)
+[2025-07-19 12:32:18] [INFO]    Skipping already completed task Task_85
+[2025-07-19 12:32:18] [INFO]    Assigned Task_125 to node2 at port 9002 (90 MB)
+[2025-07-19 12:32:18] [INFO]    Skipping already completed task Task_86
+[2025-07-19 12:32:18] [INFO]    Manager: Task Task_109 marked as completed by node1
+[2025-07-19 12:32:18] [INFO]    Manager: Task Task_111 marked as completed by node1
+[2025-07-19 12:32:18] [INFO]    Manager: Task Task_118 marked as completed by node2
+[2025-07-19 12:32:18] [INFO]    Manager: Task Task_120 marked as completed by node2
+[2025-07-19 12:32:19] [INFO]    Assigned Task_126 to node1 at port 9001 (47 MB)
+[2025-07-19 12:32:19] [INFO]    Skipping already completed task Task_87
+[2025-07-19 12:32:19] [INFO]    Assigned Task_127 to node2 at port 9002 (105 MB)
+[2025-07-19 12:32:19] [INFO]    Skipping already completed task Task_88
+[2025-07-19 12:32:20] [INFO]    Assigned Task_128 to node1 at port 9001 (68 MB)
+[2025-07-19 12:32:20] [INFO]    Skipping already completed task Task_89
+[2025-07-19 12:32:20] [INFO]    Assigned Task_129 to node2 at port 9002 (91 MB)
+[2025-07-19 12:32:20] [INFO]    Skipping already completed task Task_90
+[2025-07-19 12:32:20] [INFO]    Manager: Task Task_112 marked as completed by node1
+[2025-07-19 12:32:20] [INFO]    Manager: Task Task_121 marked as completed by node2
+[2025-07-19 12:32:20] [INFO]    Manager: Task Task_115 marked as completed by node1
+[2025-07-19 12:32:20] [INFO]    Manager: Task Task_123 marked as completed by node2
+[2025-07-19 12:32:20] [INFO]    Assigned Task_130 to node2 at port 9002 (121 MB)
+[2025-07-19 12:32:20] [INFO]    Skipping already completed task Task_91
+[2025-07-19 12:32:21] [INFO]    Assigned Task_131 to node1 at port 9001 (34 MB)
+[2025-07-19 12:32:21] [INFO]    Skipping already completed task Task_92
+[2025-07-19 12:32:21] [INFO]    Assigned Task_132 to node1 at port 9001 (24 MB)
+[2025-07-19 12:32:21] [INFO]    Skipping already completed task Task_93
+[2025-07-19 12:32:21] [INFO]    Manager: Task Task_116 marked as completed by node1
+[2025-07-19 12:32:21] [INFO]    Manager: Task Task_125 marked as completed by node2
+[2025-07-19 12:32:23] [INFO]    Assigned Task_133 to node1 at port 9001 (68 MB)
+[2025-07-19 12:32:23] [INFO]    Skipping already completed task Task_94
+[2025-07-19 12:32:24] [INFO]    Assigned Task_134 to node1 at port 9001 (16 MB)
+[2025-07-19 12:32:24] [INFO]    Skipping already completed task Task_95
+[2025-07-19 12:32:24] [INFO]    Assigned Task_135 to node2 at port 9002 (19 MB)
+[2025-07-19 12:32:24] [INFO]    Skipping already completed task Task_96
+[2025-07-19 12:32:24] [INFO]    Assigned Task_136 to node2 at port 9002 (101 MB)
+[2025-07-19 12:32:24] [INFO]    Skipping already completed task Task_97
+[2025-07-19 12:32:24] [INFO]    Manager: Task Task_117 marked as completed by node1
+[2025-07-19 12:32:24] [INFO]    Manager: Task Task_127 marked as completed by node2
+[2025-07-19 12:32:24] [INFO]    Assigned Task_137 to node2 at port 9002 (101 MB)
+[2025-07-19 12:32:24] [INFO]    Skipping already completed task Task_98
+[2025-07-19 12:32:24] [INFO]    Manager: Task Task_119 marked as completed by node1
+[2025-07-19 12:32:24] [INFO]    Manager: Task Task_122 marked as completed by node1
+[2025-07-19 12:32:24] [INFO]    Manager: Task Task_129 marked as completed by node2
+[2025-07-19 12:32:24] [INFO]    Manager: Task Task_130 marked as completed by node2
+[2025-07-19 12:32:25] [INFO]    Assigned Task_138 to node1 at port 9001 (95 MB)
+[2025-07-19 12:32:25] [INFO]    Skipping already completed task Task_99
+[2025-07-19 12:32:25] [INFO]    Assigned Task_139 to node2 at port 9002 (75 MB)
+[2025-07-19 12:32:25] [INFO]    Skipping already completed task Task_100
+[2025-07-19 12:32:25] [INFO]    Assigned Task_140 to node2 at port 9002 (91 MB)
+[2025-07-19 12:32:25] [INFO]    Skipping already completed task Task_101
+[2025-07-19 12:32:26] [INFO]    Assigned Task_141 to node1 at port 9001 (44 MB)
+[2025-07-19 12:32:26] [INFO]    Skipping already completed task Task_102
+[2025-07-19 12:32:26] [INFO]    Assigned Task_142 to node2 at port 9002 (72 MB)
+[2025-07-19 12:32:26] [INFO]    Skipping already completed task Task_103
+[2025-07-19 12:32:26] [INFO]    Manager: Task Task_124 marked as completed by node1
+[2025-07-19 12:32:26] [INFO]    Manager: Task Task_135 marked as completed by node2
+[2025-07-19 12:32:27] [INFO]    Assigned Task_143 to node1 at port 9001 (89 MB)
+[2025-07-19 12:32:27] [INFO]    Skipping already completed task Task_104
+[2025-07-19 12:34:15] [INFO]    Manager: Task Task_126 marked as completed by node1
+[2025-07-19 12:34:15] [INFO]    Manager: Task Task_128 marked as completed by node1
+[2025-07-19 12:34:15] [INFO]    Manager: Task Task_136 marked as completed by node2
+[2025-07-19 12:34:15] [INFO]    Manager: Task Task_137 marked as completed by node2
+[2025-07-19 12:32:28] [INFO]    Assigned Task_144 to node1 at port 9001 (77 MB)
+[2025-07-19 12:32:28] [INFO]    Skipping already completed task Task_105
+[2025-07-19 12:32:28] [INFO]    Assigned Task_145 to node2 at port 9002 (98 MB)
+[2025-07-19 12:32:28] [INFO]    Skipping already completed task Task_106
+[2025-07-19 12:32:28] [INFO]    Assigned Task_146 to node2 at port 9002 (76 MB)
+[2025-07-19 12:32:28] [INFO]    Skipping already completed task Task_107
+[2025-07-19 12:32:29] [INFO]    Assigned Task_147 to node1 at port 9001 (33 MB)
+[2025-07-19 12:32:29] [INFO]    Skipping already completed task Task_108
+[2025-07-19 12:32:29] [INFO]    Manager: Task Task_131 marked as completed by node1
+[2025-07-19 12:32:29] [INFO]    Manager: Task Task_139 marked as completed by node2
+[2025-07-19 12:32:29] [INFO]    Assigned Task_148 to node2 at port 9002 (110 MB)
+[2025-07-19 12:32:30] [INFO]    Assigned Task_149 to node1 at port 9001 (61 MB)
+[2025-07-19 12:32:30] [INFO]    Manager: Task Task_132 marked as completed by node1
+[2025-07-19 12:32:30] [INFO]    Manager: Task Task_133 marked as completed by node1
+[2025-07-19 12:32:30] [INFO]    Manager: Task Task_140 marked as completed by node2
+[2025-07-19 12:32:31] [INFO]    Assigned Task_150 to node2 at port 9002 (102 MB)
+[2025-07-19 12:32:31] [INFO]    Assigned Task_151 to node1 at port 9001 (97 MB)
+[2025-07-19 12:32:31] [INFO]    Manager: Task Task_134 marked as completed by node1
+[2025-07-19 12:32:31] [INFO]    Manager: Task Task_142 marked as completed by node2
+[2025-07-19 12:32:31] [INFO]    Manager: Task Task_145 marked as completed by node2
+[2025-07-19 12:32:31] [INFO]    Assigned Task_152 to node2 at port 9002 (26 MB)
+[2025-07-19 12:32:31] [INFO]    Assigned Task_153 to node2 at port 9002 (44 MB)
+[2025-07-19 12:32:31] [INFO]    Assigned Task_154 to node2 at port 9002 (39 MB)
+[2025-07-19 12:32:31] [INFO]    Assigned Task_155 to node2 at port 9002 (25 MB)
+[2025-07-19 12:32:31] [INFO]    Manager: Task Task_138 marked as completed by node1
+[2025-07-19 12:32:31] [INFO]    Assigned Task_156 to node1 at port 9001 (68 MB)
+[2025-07-19 12:32:32] [INFO]    Manager: Task Task_146 marked as completed by node2
+[2025-07-19 12:32:32] [INFO]    Assigned Task_157 to node2 at port 9002 (78 MB)
+[2025-07-19 12:32:33] [INFO]    Assigned Task_158 to node1 at port 9001 (24 MB)
+[2025-07-19 12:32:33] [INFO]    Manager: Task Task_148 marked as completed by node2
+[2025-07-19 12:32:33] [INFO]    Manager: Task Task_141 marked as completed by node1
+[2025-07-19 12:32:33] [INFO]    Assigned Task_159 to node2 at port 9002 (72 MB)
+[2025-07-19 12:32:34] [INFO]    Manager: Task Task_150 marked as completed by node2
+[2025-07-19 12:32:34] [INFO]    Manager: Task Task_143 marked as completed by node1
+[2025-07-19 12:32:34] [INFO]    Assigned Task_160 to node1 at port 9001 (88 MB)
+[2025-07-19 12:32:35] [INFO]    Assigned Task_161 to node1 at port 9001 (50 MB)
+[2025-07-19 12:32:35] [INFO]    Assigned Task_162 to node2 at port 9002 (112 MB)
+[2025-07-19 12:32:35] [INFO]    Assigned Task_163 to node2 at port 9002 (65 MB)
+[2025-07-19 12:32:35] [INFO]    Manager: Task Task_144 marked as completed by node1
+[2025-07-19 12:32:36] [INFO]    Assigned Task_164 to node1 at port 9001 (48 MB)
+[2025-07-19 12:32:36] [INFO]    Manager: Task Task_152 marked as completed by node2
+[2025-07-19 12:32:36] [INFO]    Manager: Task Task_147 marked as completed by node1
+[2025-07-19 12:32:37] [INFO]    Manager: Task Task_153 marked as completed by node2
+[2025-07-19 12:32:37] [INFO]    Manager: Task Task_154 marked as completed by node2
+[2025-07-19 12:32:37] [INFO]    Manager: Task Task_149 marked as completed by node1
+[2025-07-19 12:32:38] [INFO]    Manager: Task Task_151 marked as completed by node1
+[2025-07-19 12:32:38] [INFO]    Manager: Task Task_155 marked as completed by node2
+[2025-07-19 12:32:38] [INFO]    Manager: Task Task_156 marked as completed by node1
+[2025-07-19 12:32:39] [INFO]    Manager: Task Task_157 marked as completed by node2
+[2025-07-19 12:32:40] [INFO]    Manager: Task Task_158 marked as completed by node1
+[2025-07-19 12:32:40] [INFO]    Manager: Task Task_159 marked as completed by node2
+[2025-07-19 12:32:40] [INFO]    Manager: Task Task_160 marked as completed by node1
+[2025-07-19 12:32:41] [INFO]    Manager: Task Task_162 marked as completed by node2
+[2025-07-19 12:34:30] [INFO]    Manager: Task Task_161 marked as completed by node1
+[2025-07-19 12:34:30] [INFO]    Manager: Task Task_163 marked as completed by node2
+[2025-07-19 12:34:30] [INFO]    Manager: Task Task_164 marked as completed by node1
+[2025-07-19 12:35:00] [INFO]    Ignoring already completed task: Task_1
+[2025-07-19 12:35:00] [INFO]    Ignoring already completed task: Task_2
+[2025-07-19 12:35:00] [INFO]    Ignoring already completed task: Task_3
+[2025-07-19 12:35:00] [INFO]    Ignoring already completed task: Task_4
+[2025-07-19 12:35:00] [INFO]    Ignoring already completed task: Task_5
+[2025-07-19 12:35:00] [INFO]    Ignoring already completed task: Task_6
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_7
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_8
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_9
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_10
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_11
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_12
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_13
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_14
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_15
+[2025-07-19 12:35:01] [INFO]    Ignoring already completed task: Task_16
+[2025-07-19 12:35:02] [INFO]    Ignoring already completed task: Task_17
+[2025-07-19 12:35:02] [INFO]    Ignoring already completed task: Task_18
+[2025-07-19 12:35:02] [INFO]    Ignoring already completed task: Task_19
+[2025-07-19 12:35:02] [INFO]    Ignoring already completed task: Task_20
+[2025-07-19 12:36:50] [INFO]    Ignoring already completed task: Task_21
+[2025-07-19 12:36:50] [INFO]    Ignoring already completed task: Task_22
+[2025-07-19 12:36:50] [INFO]    Ignoring already completed task: Task_23
+[2025-07-19 12:36:50] [INFO]    Ignoring already completed task: Task_24
+[2025-07-19 12:36:50] [INFO]    Ignoring already completed task: Task_25
+[2025-07-19 12:35:02] [INFO]    Ignoring already completed task: Task_26
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_27
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_28
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_29
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_30
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_31
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_32
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_33
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_34
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_35
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_1
+[2025-07-19 12:35:03] [INFO]    Ignoring already completed task: Task_36
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_2
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_37
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_3
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_38
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_4
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_39
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_5
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_40
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_6
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_41
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_7
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_42
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_8
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_43
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_9
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_44
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_10
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_45
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_11
+[2025-07-19 12:35:04] [INFO]    Ignoring already completed task: Task_46
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_12
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_47
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_13
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_48
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_14
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_49
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_15
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_50
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_16
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_51
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_17
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_52
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_18
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_53
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_19
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_54
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_20
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_55
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_21
+[2025-07-19 12:35:05] [INFO]    Ignoring already completed task: Task_56
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_22
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_57
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_23
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_58
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_24
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_59
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_25
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_60
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_26
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_61
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_27
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_62
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_28
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_63
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_29
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_64
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_30
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_65
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_31
+[2025-07-19 12:35:06] [INFO]    Ignoring already completed task: Task_66
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_32
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_67
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_33
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_68
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_34
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_69
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_35
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_70
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_36
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_71
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_37
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_72
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_38
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_73
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_39
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_74
+[2025-07-19 12:36:55] [INFO]    Ignoring already completed task: Task_40
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_75
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_41
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_76
+[2025-07-19 12:35:07] [INFO]    Ignoring already completed task: Task_42
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_77
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_43
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_78
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_44
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_79
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_45
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_80
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_46
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_81
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_47
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_82
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_48
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_83
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_49
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_84
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_50
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_85
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_51
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_86
+[2025-07-19 12:35:08] [INFO]    Ignoring already completed task: Task_52
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_87
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_53
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_88
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_54
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_89
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_55
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_90
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_56
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_91
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_57
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_92
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_58
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_93
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_59
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_94
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_60
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_95
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_61
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_96
+[2025-07-19 12:35:09] [INFO]    Ignoring already completed task: Task_62
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_97
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_63
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_98
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_64
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_99
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_65
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_100
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_66
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_101
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_67
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_102
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_68
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_103
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_69
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_104
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_70
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_105
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_71
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_106
+[2025-07-19 12:35:10] [INFO]    Ignoring already completed task: Task_72
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_107
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_73
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_108
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_74
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_109
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_75
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_110
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_76
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_111
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_77
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_112
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_78
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_113
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_79
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_114
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_80
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_115
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_81
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_116
+[2025-07-19 12:35:11] [INFO]    Ignoring already completed task: Task_82
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_117
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_83
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_118
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_84
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_119
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_85
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_120
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_86
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_121
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_87
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_122
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_88
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_123
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_89
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_124
+[2025-07-19 12:37:00] [INFO]    Ignoring already completed task: Task_90
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_125
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_91
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_126
+[2025-07-19 12:35:12] [INFO]    Ignoring already completed task: Task_92
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_127
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_93
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_128
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_94
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_129
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_95
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_130
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_96
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_131
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_97
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_132
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_98
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_133
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_99
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_134
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_100
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_135
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_101
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_136
+[2025-07-19 12:35:13] [INFO]    Ignoring already completed task: Task_102
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_137
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_103
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_138
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_104
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_139
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_105
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_140
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_106
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_141
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_107
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_142
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_108
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_143
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_144
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_145
+[2025-07-19 12:35:14] [INFO]    Ignoring already completed task: Task_146
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_147
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_148
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_149
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_150
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_151
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_152
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_153
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_154
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_155
+[2025-07-19 12:35:15] [INFO]    Ignoring already completed task: Task_156
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_157
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_158
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_159
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_160
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_161
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_162
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_163
+[2025-07-19 12:35:16] [INFO]    Ignoring already completed task: Task_164
+[2025-07-19 12:35:19] [INFO]    Caught signal 2. Shutting down manager...
+[2025-07-19 12:35:19] [INFO]    Manager: Shutdown complete.
+[2025-07-19 12:35:19] [INFO]    Manager: Shutdown complete.
+[2025-07-19 12:35:19] [WARN]    Node node1 disconnected unexpectedly.
+[2025-07-19 12:35:19] [INFO]    Manager: Shutdown complete.
+[2025-07-19 12:35:19] [WARN]    Node node1 disconnected unexpectedly.
+[2025-07-19 12:35:19] [WARN]    Node node2 disconnected unexpectedly.
+[2025-07-19 12:35:22] [INFO]    Manager starting...
+[2025-07-19 12:35:22] [INFO]    Manager listening on 127.0.0.1:5000
+[2025-07-19 12:37:15] [INFO]    Node node1 connected from 127.0.0.1:9001 with 512 MB memory
+[2025-07-19 12:37:15] [INFO]    Manager: handling persistent connection for node node1 (socket: 5) to persistent handler.
+[2025-07-19 12:35:31] [INFO]    Node node2 connected from 127.0.0.1:9002 with 512 MB memory
+[2025-07-19 12:35:31] [INFO]    Manager: handling persistent connection for node node2 (socket: 6) to persistent handler.
+[2025-07-19 12:35:34] [INFO]    Received task: Task_1 (27 MB)
+[2025-07-19 12:35:34] [INFO]    Received task: Task_2 (78 MB)
+[2025-07-19 12:35:34] [INFO]    Assigned Task_1 to node1 at port 9001 (27 MB)
+[2025-07-19 12:35:34] [INFO]    Assigned Task_2 to node1 at port 9001 (78 MB)
+[2025-07-19 12:35:34] [INFO]    Received task: Task_3 (104 MB)
+[2025-07-19 12:35:34] [INFO]    Received task: Task_4 (27 MB)
+[2025-07-19 12:35:35] [INFO]    Assigned Task_3 to node1 at port 9001 (104 MB)
+[2025-07-19 12:35:35] [INFO]    Assigned Task_4 to node1 at port 9001 (27 MB)
+[2025-07-19 12:35:35] [INFO]    Received task: Task_5 (92 MB)
+[2025-07-19 12:35:35] [INFO]    Received task: Task_6 (43 MB)
+[2025-07-19 12:35:35] [INFO]    Assigned Task_5 to node1 at port 9001 (92 MB)
+[2025-07-19 12:35:35] [INFO]    Assigned Task_6 to node1 at port 9001 (43 MB)
+[2025-07-19 12:35:35] [INFO]    Received task: Task_7 (43 MB)
+[2025-07-19 12:35:35] [INFO]    Received task: Task_8 (30 MB)
+[2025-07-19 12:35:35] [INFO]    Assigned Task_7 to node1 at port 9001 (43 MB)
+[2025-07-19 12:35:36] [INFO]    Assigned Task_8 to node1 at port 9001 (30 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_9 (14 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_10 (122 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_11 (115 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_12 (117 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_13 (34 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_14 (17 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_15 (103 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_16 (33 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_17 (12 MB)
+[2025-07-19 12:35:36] [INFO]    Manager: Task Task_1 marked as completed by node1
+[2025-07-19 12:35:36] [INFO]    Received task: Task_18 (121 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_19 (28 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_20 (54 MB)
+[2025-07-19 12:35:36] [INFO]    Received task: Task_21 (96 MB)
+[2025-07-19 12:37:25] [INFO]    Assigned Task_9 to node1 at port 9001 (14 MB)
+[2025-07-19 12:37:25] [INFO]    Assigned Task_10 to node2 at port 9002 (122 MB)
+[2025-07-19 12:37:25] [INFO]    Assigned Task_11 to node2 at port 9002 (115 MB)
+[2025-07-19 12:37:25] [INFO]    Assigned Task_12 to node2 at port 9002 (117 MB)
+[2025-07-19 12:35:38] [INFO]    Assigned Task_13 to node1 at port 9001 (34 MB)
+[2025-07-19 12:35:38] [INFO]    Assigned Task_14 to node1 at port 9001 (17 MB)
+[2025-07-19 12:35:38] [INFO]    Assigned Task_15 to node2 at port 9002 (103 MB)
+[2025-07-19 12:35:38] [INFO]    Assigned Task_16 to node2 at port 9002 (33 MB)
+[2025-07-19 12:35:39] [INFO]    Assigned Task_17 to node1 at port 9001 (12 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_22 (51 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_23 (107 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_24 (126 MB)
+[2025-07-19 12:35:39] [INFO]    Manager: Task Task_2 marked as completed by node1
+[2025-07-19 12:35:39] [INFO]    Received task: Task_25 (82 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_26 (91 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_27 (16 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_28 (108 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_29 (118 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_30 (63 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_31 (121 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_32 (108 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_33 (87 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_34 (62 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_35 (113 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_36 (103 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_37 (103 MB)
+[2025-07-19 12:35:39] [INFO]    Ignoring already completed task: Task_1
+[2025-07-19 12:35:39] [INFO]    Received task: Task_38 (113 MB)
+[2025-07-19 12:35:39] [INFO]    Ignoring already completed task: Task_2
+[2025-07-19 12:35:39] [INFO]    Received task: Task_39 (9 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_3 (114 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_40 (110 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_4 (76 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_41 (36 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_5 (109 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_42 (113 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_6 (43 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_43 (22 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_7 (10 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_44 (55 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_8 (85 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_45 (65 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_9 (67 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_46 (92 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_10 (28 MB)
+[2025-07-19 12:35:39] [INFO]    Manager: Task Task_10 marked as completed by node2
+[2025-07-19 12:35:39] [INFO]    Received task: Task_47 (95 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_11 (10 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_48 (97 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_12 (126 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_49 (53 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_13 (10 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_50 (78 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_14 (10 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_51 (21 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_15 (13 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_52 (87 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_16 (109 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_53 (123 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_17 (125 MB)
+[2025-07-19 12:35:39] [INFO]    Received task: Task_54 (28 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_18 (117 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_55 (72 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_19 (84 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_56 (94 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_20 (9 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_57 (84 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_21 (97 MB)
+[2025-07-19 12:35:40] [INFO]    Manager: Task Task_3 marked as completed by node1
+[2025-07-19 12:35:40] [INFO]    Manager: Task Task_4 marked as completed by node1
+[2025-07-19 12:35:40] [INFO]    Manager: Task Task_5 marked as completed by node1
+[2025-07-19 12:35:40] [INFO]    Manager: Task Task_11 marked as completed by node2
+[2025-07-19 12:35:40] [INFO]    Received task: Task_58 (13 MB)
+[2025-07-19 12:35:40] [INFO]    Received task: Task_22 (20 MB)
+[2025-07-19 12:35:41] [INFO]    Assigned Task_18 to node1 at port 9001 (117 MB)
+[2025-07-19 12:37:30] [INFO]    Assigned Task_19 to node1 at port 9001 (84 MB)
+[2025-07-19 12:35:43] [INFO]    Assigned Task_20 to node1 at port 9001 (9 MB)
+[2025-07-19 12:35:44] [INFO]    Assigned Task_21 to node1 at port 9001 (97 MB)
+[2025-07-19 12:35:45] [INFO]    Assigned Task_22 to node1 at port 9001 (20 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_59 (97 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_23 (92 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_60 (60 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_24 (18 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_61 (82 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_25 (27 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_62 (24 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_26 (39 MB)
+[2025-07-19 12:35:45] [INFO]    Manager: Task Task_6 marked as completed by node1
+[2025-07-19 12:35:45] [INFO]    Manager: Task Task_12 marked as completed by node2
+[2025-07-19 12:35:45] [INFO]    Received task: Task_63 (92 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_27 (116 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_64 (110 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_28 (28 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_65 (34 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_29 (20 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_66 (19 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_30 (30 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_67 (94 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_31 (69 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_68 (124 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_32 (74 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_69 (69 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_33 (32 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_70 (8 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_34 (66 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_71 (6 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_35 (95 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_72 (62 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_36 (47 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_73 (119 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_37 (15 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_74 (10 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_38 (120 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_75 (48 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_39 (68 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_76 (72 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_40 (98 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_77 (101 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_41 (67 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_78 (103 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_42 (87 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_79 (16 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_43 (124 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_80 (81 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_44 (61 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_81 (48 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_45 (20 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_82 (117 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_46 (14 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_83 (106 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_47 (12 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_84 (84 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_48 (62 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_85 (63 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_49 (51 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_86 (19 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_50 (52 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_87 (12 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_51 (109 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_88 (110 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_52 (82 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_89 (69 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_53 (48 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_90 (37 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_54 (125 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_91 (118 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_55 (78 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_92 (109 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_56 (10 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_93 (78 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_57 (96 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_94 (118 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_58 (61 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_95 (100 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_59 (112 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_96 (122 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_60 (87 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_97 (102 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_61 (48 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_98 (34 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_62 (71 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_99 (13 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_63 (98 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_100 (53 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_64 (18 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_101 (87 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_65 (114 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_102 (113 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_66 (112 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_103 (89 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_67 (94 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_104 (115 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_68 (29 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_105 (67 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_69 (79 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_106 (104 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_70 (105 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_107 (103 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_71 (7 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_108 (99 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_72 (62 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_109 (40 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_73 (122 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_110 (30 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_74 (64 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_111 (20 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_75 (18 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_112 (56 MB)
+[2025-07-19 12:35:45] [INFO]    Received task: Task_76 (89 MB)
+[2025-07-19 12:35:45] [INFO]    Assigned Task_23 to node1 at port 9001 (92 MB)
+[2025-07-19 12:35:46] [INFO]    Assigned Task_24 to node1 at port 9001 (18 MB)
+[2025-07-19 12:35:46] [INFO]    Assigned Task_25 to node2 at port 9002 (27 MB)
+[2025-07-19 12:35:46] [INFO]    Assigned Task_26 to node2 at port 9002 (39 MB)
+[2025-07-19 12:35:46] [INFO]    Assigned Task_27 to node2 at port 9002 (116 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_113 (70 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_77 (97 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_114 (72 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_78 (97 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_115 (110 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_79 (115 MB)
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_7 marked as completed by node1
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_8 marked as completed by node1
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_9 marked as completed by node1
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_13 marked as completed by node1
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_14 marked as completed by node1
+[2025-07-19 12:35:46] [INFO]    Received task: Task_81 (99 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_118 (19 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_82 (40 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_119 (114 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_83 (66 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_120 (48 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_84 (93 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_121 (64 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_85 (24 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_122 (101 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_86 (83 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_123 (54 MB)
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_15 marked as completed by node2
+[2025-07-19 12:35:46] [INFO]    Manager: Task Task_16 marked as completed by node2
+[2025-07-19 12:35:46] [INFO]    Received task: Task_80 (65 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_117 (25 MB)
+[2025-07-19 12:35:46] [INFO]    Received task: Task_116 (73 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_87 (24 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_124 (59 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_88 (106 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_125 (77 MB)
+[2025-07-19 12:35:47] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:35:47] [INFO]    Assigned Task_28 to node2 at port 9002 (28 MB)
+[2025-07-19 12:35:47] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:35:47] [INFO]    Assigned Task_29 to node2 at port 9002 (20 MB)
+[2025-07-19 12:35:47] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:35:47] [INFO]    Assigned Task_30 to node2 at port 9002 (30 MB)
+[2025-07-19 12:35:47] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:35:47] [INFO]    Received task: Task_89 (51 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_126 (103 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_90 (27 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_127 (121 MB)
+[2025-07-19 12:35:47] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:35:47] [INFO]    Received task: Task_91 (124 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_128 (40 MB)
+[2025-07-19 12:35:47] [INFO]    Manager: Task Task_17 marked as completed by node1
+[2025-07-19 12:35:47] [INFO]    Received task: Task_92 (6 MB)
+[2025-07-19 12:37:35] [INFO]    Received task: Task_129 (20 MB)
+[2025-07-19 12:37:35] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:37:35] [INFO]    Received task: Task_93 (66 MB)
+[2025-07-19 12:37:35] [INFO]    Received task: Task_130 (23 MB)
+[2025-07-19 12:37:35] [INFO]    Received task: Task_94 (115 MB)
+[2025-07-19 12:37:35] [INFO]    Received task: Task_131 (47 MB)
+[2025-07-19 12:37:35] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:37:35] [INFO]    Received task: Task_95 (71 MB)
+[2025-07-19 12:37:35] [INFO]    Received task: Task_132 (16 MB)
+[2025-07-19 12:37:36] [INFO]    Received task: Task_96 (46 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_133 (8 MB)
+[2025-07-19 12:35:47] [WARN]    Node node1 disconnected unexpectedly.
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_18 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_19 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_20 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_21 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_22 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_23 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Reassigning task Task_24 from failed node node1
+[2025-07-19 12:35:47] [INFO]    Received task: Task_97 (63 MB)
+[2025-07-19 12:35:47] [INFO]    Received task: Task_134 (60 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_98 (98 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_135 (118 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_99 (56 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_136 (22 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_100 (7 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_137 (125 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_101 (74 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_138 (25 MB)
+[2025-07-19 12:35:48] [INFO]    Manager: Task Task_25 marked as completed by node2
+[2025-07-19 12:35:48] [INFO]    Received task: Task_102 (40 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_139 (66 MB)
+[2025-07-19 12:35:48] [INFO]    Assigned Task_31 to node2 at port 9002 (69 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_103 (29 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_140 (53 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_104 (58 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_141 (86 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_105 (63 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_142 (120 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_106 (125 MB)
+[2025-07-19 12:35:48] [INFO]    Received task: Task_143 (47 MB)
+[2025-07-19 12:35:48] [INFO]    Manager: Task Task_26 marked as completed by node2
+[2025-07-19 12:35:48] [INFO]    Received task: Task_107 (6 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_144 (9 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_108 (58 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_145 (40 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_146 (51 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_147 (99 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_148 (90 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_149 (124 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_150 (34 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_151 (6 MB)
+[2025-07-19 12:35:49] [INFO]    Received task: Task_152 (58 MB)
+[2025-07-19 12:35:49] [WARN]    Node node2 disconnected unexpectedly.
+[2025-07-19 12:35:49] [INFO]    Reassigning task Task_27 from failed node node2
+[2025-07-19 12:35:49] [INFO]    Reassigning task Task_28 from failed node node2
+[2025-07-19 12:35:49] [INFO]    Reassigning task Task_29 from failed node node2
+[2025-07-19 12:35:49] [INFO]    Reassigning task Task_30 from failed node node2
+[2025-07-19 12:35:49] [INFO]    Reassigning task Task_31 from failed node node2
+[2025-07-19 12:35:49] [INFO]    Received task: Task_153 (58 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_154 (94 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_155 (122 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_156 (115 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_157 (30 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_158 (16 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_159 (24 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_160 (123 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_161 (55 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_162 (85 MB)
+[2025-07-19 12:35:50] [INFO]    Received task: Task_163 (23 MB)
+[2025-07-19 12:35:51] [INFO]    Received task: Task_164 (83 MB)
+[2025-07-19 12:43:31] [INFO]    Caught signal 2. Shutting down manager...
+[2025-07-19 12:43:31] [INFO]    Manager: Shutdown complete.
+[2025-07-19 12:45:47] [INFO]    Manager starting...
+[2025-07-19 12:45:47] [INFO]    Manager listening on 127.0.0.1:5000
+[2025-07-19 12:47:41] [INFO]    Node node1 connected from 127.0.0.1:9001 with 512 MB memory
+[2025-07-19 12:47:41] [INFO]    Manager: handling persistent connection for node node1 (socket: 5) to persistent handler.
+[2025-07-19 12:46:00] [INFO]    Node node2 connected from 127.0.0.1:9002 with 512 MB memory
+[2025-07-19 12:46:00] [INFO]    Manager: handling persistent connection for node node2 (socket: 6) to persistent handler.
+[2025-07-19 12:47:49] [INFO]    Received task: Task_1 (119 MB)
+[2025-07-19 12:47:49] [INFO]    Assigned Task_1 to node1 at port 9001 (119 MB)
+[2025-07-19 12:47:49] [INFO]    Received task: Task_2 (40 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_3 (13 MB)
+[2025-07-19 12:47:50] [INFO]    Assigned Task_2 to node1 at port 9001 (40 MB)
+[2025-07-19 12:47:50] [INFO]    Assigned Task_3 to node1 at port 9001 (13 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_4 (54 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_5 (69 MB)
+[2025-07-19 12:47:50] [INFO]    Assigned Task_4 to node1 at port 9001 (54 MB)
+[2025-07-19 12:47:50] [INFO]    Assigned Task_5 to node1 at port 9001 (69 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_6 (41 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_7 (14 MB)
+[2025-07-19 12:47:50] [INFO]    Assigned Task_6 to node1 at port 9001 (41 MB)
+[2025-07-19 12:47:50] [INFO]    Assigned Task_7 to node1 at port 9001 (14 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_8 (39 MB)
+[2025-07-19 12:47:50] [INFO]    Received task: Task_9 (28 MB)
+[2025-07-19 12:47:51] [INFO]    Assigned Task_8 to node1 at port 9001 (39 MB)
+[2025-07-19 12:47:52] [INFO]    Assigned Task_9 to node1 at port 9001 (28 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_10 (105 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_11 (118 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_12 (65 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_13 (18 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_14 (13 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_15 (119 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_16 (126 MB)
+[2025-07-19 12:47:52] [INFO]    Manager: Task Task_1 marked as completed by node1
+[2025-07-19 12:47:52] [INFO]    Received task: Task_17 (58 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_18 (78 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_19 (22 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_20 (7 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_21 (120 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_22 (15 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_23 (55 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_24 (65 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_25 (81 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_26 (99 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_27 (52 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_28 (56 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_29 (18 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_30 (12 MB)
+[2025-07-19 12:47:52] [INFO]    Received task: Task_31 (51 MB)
+[2025-07-19 12:47:53] [INFO]    Received task: Task_32 (120 MB)
+[2025-07-19 12:47:53] [INFO]    Assigned Task_10 to node1 at port 9001 (105 MB)
+[2025-07-19 12:47:53] [INFO]    Assigned Task_11 to node2 at port 9002 (118 MB)
+[2025-07-19 12:49:42] [INFO]    Assigned Task_12 to node1 at port 9001 (65 MB)
+[2025-07-19 12:47:55] [INFO]    Assigned Task_13 to node1 at port 9001 (18 MB)
+[2025-07-19 12:47:56] [INFO]    Assigned Task_14 to node1 at port 9001 (13 MB)
+[2025-07-19 12:47:56] [INFO]    Assigned Task_15 to node2 at port 9002 (119 MB)
+[2025-07-19 12:47:56] [INFO]    Assigned Task_16 to node2 at port 9002 (126 MB)
+[2025-07-19 12:47:56] [INFO]    Assigned Task_17 to node2 at port 9002 (58 MB)
+[2025-07-19 12:47:56] [INFO]    Assigned Task_18 to node2 at port 9002 (78 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_33 (27 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_34 (63 MB)
+[2025-07-19 12:47:56] [INFO]    Ignoring already completed task: Task_1
+[2025-07-19 12:47:56] [INFO]    Received task: Task_35 (88 MB)
+[2025-07-19 12:47:56] [INFO]    Manager: Task Task_2 marked as completed by node1
+[2025-07-19 12:47:56] [INFO]    Manager: Task Task_3 marked as completed by node1
+[2025-07-19 12:47:56] [INFO]    Received task: Task_36 (38 MB)
+[2025-07-19 12:47:56] [INFO]    Ignoring already completed task: Task_3
+[2025-07-19 12:47:56] [INFO]    Received task: Task_37 (41 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_4 (109 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_38 (116 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_5 (65 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_39 (69 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_6 (62 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_40 (6 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_7 (31 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_41 (6 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_8 (106 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_42 (123 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_9 (93 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_43 (35 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_10 (42 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_44 (90 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_11 (39 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_45 (74 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_12 (59 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_46 (97 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_13 (9 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_47 (78 MB)
+[2025-07-19 12:47:56] [INFO]    Manager: Task Task_11 marked as completed by node2
+[2025-07-19 12:47:56] [INFO]    Received task: Task_14 (84 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_48 (82 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_15 (67 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_49 (43 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_16 (29 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_50 (113 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_17 (71 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_51 (87 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_18 (44 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_52 (115 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_19 (55 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_53 (78 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_20 (108 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_54 (79 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_21 (42 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_55 (52 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_22 (107 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_56 (56 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_23 (48 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_57 (94 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_24 (41 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_58 (47 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_25 (17 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_59 (35 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_26 (44 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_60 (117 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_27 (28 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_61 (62 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_28 (24 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_62 (87 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_29 (50 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_63 (19 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_30 (95 MB)
+[2025-07-19 12:47:56] [INFO]    Ignoring already completed task: Task_2
+[2025-07-19 12:47:56] [INFO]    Received task: Task_64 (17 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_31 (122 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_65 (82 MB)
+[2025-07-19 12:47:56] [INFO]    Received task: Task_32 (9 MB)
+[2025-07-19 12:47:57] [INFO]    Assigned Task_19 to node1 at port 9001 (55 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_66 (112 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_33 (35 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_67 (118 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_34 (58 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_68 (63 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_35 (44 MB)
+[2025-07-19 12:47:57] [INFO]    Manager: Task Task_4 marked as completed by node1
+[2025-07-19 12:47:57] [INFO]    Manager: Task Task_5 marked as completed by node1
+[2025-07-19 12:47:57] [INFO]    Manager: Task Task_6 marked as completed by node1
+[2025-07-19 12:47:57] [INFO]    Received task: Task_70 (41 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_37 (81 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_71 (24 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_38 (61 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_72 (39 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_39 (20 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_73 (75 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_40 (81 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_74 (93 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_41 (24 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_75 (49 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_42 (65 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_76 (55 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_69 (76 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_36 (25 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_43 (23 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_77 (109 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_44 (112 MB)
+[2025-07-19 12:47:57] [INFO]    Received task: Task_78 (70 MB)
+[2025-07-19 12:47:59] [INFO]    Assigned Task_20 to node1 at port 9001 (108 MB)
+[2025-07-19 12:47:59] [INFO]    Assigned Task_21 to node1 at port 9001 (42 MB)
+[2025-07-19 12:47:59] [INFO]    Manager: Task Task_15 marked as completed by node2
+[2025-07-19 12:47:59] [INFO]    Received task: Task_45 (81 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_79 (62 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_46 (34 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_80 (71 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_47 (91 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_81 (13 MB)
+[2025-07-19 12:47:59] [INFO]    Manager: Task Task_7 marked as completed by node1
+[2025-07-19 12:47:59] [INFO]    Manager: Task Task_8 marked as completed by node1
+[2025-07-19 12:47:59] [INFO]    Received task: Task_82 (26 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_49 (92 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_83 (65 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_50 (38 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_84 (120 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_51 (22 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_85 (15 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_52 (107 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_86 (14 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_53 (85 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_87 (32 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_54 (60 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_88 (40 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_55 (30 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_89 (82 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_56 (67 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_90 (40 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_57 (40 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_91 (88 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_58 (109 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_92 (77 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_59 (12 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_93 (39 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_60 (103 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_94 (30 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_61 (12 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_95 (8 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_62 (30 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_96 (35 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_63 (123 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_97 (17 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_64 (67 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_98 (30 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_65 (30 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_99 (49 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_48 (117 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_66 (17 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_100 (107 MB)
+[2025-07-19 12:47:59] [INFO]    Received task: Task_67 (122 MB)
+[2025-07-19 12:48:00] [INFO]    Received task: Task_101 (47 MB)
+[2025-07-19 12:48:01] [INFO]    Assigned Task_22 to node1 at port 9001 (107 MB)
+[2025-07-19 12:48:02] [INFO]    Assigned Task_23 to node1 at port 9001 (48 MB)
+[2025-07-19 12:49:52] [INFO]    Assigned Task_24 to node1 at port 9001 (41 MB)
+[2025-07-19 12:49:52] [INFO]    Assigned Task_25 to node1 at port 9001 (17 MB)
+[2025-07-19 12:49:52] [INFO]    Assigned Task_26 to node2 at port 9002 (44 MB)
+[2025-07-19 12:49:52] [INFO]    Assigned Task_27 to node2 at port 9002 (28 MB)
+[2025-07-19 12:49:52] [INFO]    Assigned Task_28 to node2 at port 9002 (24 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_68 (46 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_102 (72 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_69 (117 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_103 (15 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_70 (18 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_104 (22 MB)
+[2025-07-19 12:49:52] [INFO]    Manager: Task Task_16 marked as completed by node2
+[2025-07-19 12:49:52] [INFO]    Manager: Task Task_17 marked as completed by node2
+[2025-07-19 12:49:52] [INFO]    Manager: Task Task_18 marked as completed by node2
+[2025-07-19 12:49:52] [INFO]    Received task: Task_105 (36 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_72 (67 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_106 (54 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_73 (62 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_107 (46 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_74 (63 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_108 (19 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_75 (77 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_109 (84 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_76 (108 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_110 (32 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_77 (97 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_111 (99 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_78 (64 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_112 (17 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_79 (101 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_113 (32 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_80 (56 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_114 (51 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_81 (82 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_115 (57 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_82 (28 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_116 (79 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_83 (97 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_117 (13 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_84 (70 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_118 (64 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_85 (119 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_119 (125 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_86 (71 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_120 (98 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_87 (73 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_121 (31 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_88 (73 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_122 (114 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_89 (23 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_123 (31 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_90 (19 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_124 (111 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_91 (8 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_125 (70 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_92 (66 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_126 (69 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_93 (51 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_127 (26 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_94 (40 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_128 (32 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_95 (30 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_129 (75 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_96 (29 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_130 (70 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_97 (60 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_131 (67 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_98 (93 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_132 (122 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_99 (7 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_133 (101 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_100 (119 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_134 (69 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_101 (48 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_135 (91 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_102 (65 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_136 (56 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_103 (69 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_137 (52 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_104 (85 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_138 (40 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_105 (26 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_139 (95 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_106 (121 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_140 (9 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_107 (104 MB)
+[2025-07-19 12:49:52] [INFO]    Manager: Task Task_9 marked as completed by node1
+[2025-07-19 12:49:52] [INFO]    Manager: Task Task_10 marked as completed by node1
+[2025-07-19 12:49:52] [INFO]    Received task: Task_71 (78 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_141 (42 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_108 (13 MB)
+[2025-07-19 12:49:52] [INFO]    Received task: Task_142 (62 MB)
+[2025-07-19 12:48:05] [INFO]    Assigned Task_29 to node1 at port 9001 (50 MB)
+[2025-07-19 12:48:06] [INFO]    Assigned Task_30 to node1 at port 9001 (95 MB)
+[2025-07-19 12:48:06] [INFO]    Assigned Task_31 to node2 at port 9002 (122 MB)
+[2025-07-19 12:48:06] [INFO]    Assigned Task_32 to node1 at port 9001 (9 MB)
+[2025-07-19 12:48:06] [INFO]    Assigned Task_33 to node2 at port 9002 (35 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_143 (115 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_144 (73 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_145 (110 MB)
+[2025-07-19 12:48:06] [INFO]    Manager: Task Task_12 marked as completed by node1
+[2025-07-19 12:48:06] [INFO]    Manager: Task Task_13 marked as completed by node1
+[2025-07-19 12:48:06] [INFO]    Manager: Task Task_14 marked as completed by node1
+[2025-07-19 12:48:06] [INFO]    Manager: Task Task_19 marked as completed by node1
+[2025-07-19 12:48:06] [INFO]    Received task: Task_149 (27 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_150 (95 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_151 (24 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_152 (40 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_153 (103 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_154 (55 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_155 (47 MB)
+[2025-07-19 12:48:06] [INFO]    Manager: Task Task_26 marked as completed by node2
+[2025-07-19 12:48:06] [INFO]    Received task: Task_156 (61 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_157 (26 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_158 (8 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_159 (37 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_160 (86 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_161 (115 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_162 (121 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_163 (71 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_146 (57 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_147 (123 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_148 (23 MB)
+[2025-07-19 12:48:06] [INFO]    Received task: Task_164 (75 MB)
+[2025-07-19 12:48:07] [INFO]    Assigned Task_34 to node1 at port 9001 (58 MB)
+[2025-07-19 12:48:08] [INFO]    Assigned Task_35 to node1 at port 9001 (44 MB)
+[2025-07-19 12:48:09] [INFO]    Assigned Task_36 to node1 at port 9001 (25 MB)
+[2025-07-19 12:48:10] [INFO]    Assigned Task_37 to node1 at port 9001 (81 MB)
+[2025-07-19 12:48:10] [INFO]    Skipping already completed task Task_4
+[2025-07-19 12:48:10] [INFO]    Manager: Task Task_20 marked as completed by node1
+[2025-07-19 12:48:10] [INFO]    Manager: Task Task_21 marked as completed by node1
+[2025-07-19 12:48:10] [INFO]    Manager: Task Task_27 marked as completed by node2
+[2025-07-19 12:48:12] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:12] [INFO]    Assigned Task_38 to node2 at port 9002 (61 MB)
+[2025-07-19 12:48:12] [INFO]    Skipping already completed task Task_5
+[2025-07-19 12:48:12] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:12] [INFO]    Assigned Task_39 to node2 at port 9002 (20 MB)
+[2025-07-19 12:48:12] [INFO]    Skipping already completed task Task_6
+[2025-07-19 12:48:12] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_22 marked as completed by node1
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_23 marked as completed by node1
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_24 marked as completed by node1
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_25 marked as completed by node1
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_29 marked as completed by node1
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_28 marked as completed by node2
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_31 marked as completed by node2
+[2025-07-19 12:48:12] [INFO]    Manager: Task Task_33 marked as completed by node2
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:13] [INFO]    Assigned Task_40 to node2 at port 9002 (81 MB)
+[2025-07-19 12:48:13] [INFO]    Skipping already completed task Task_7
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:13] [INFO]    Assigned Task_41 to node2 at port 9002 (24 MB)
+[2025-07-19 12:48:13] [INFO]    Skipping already completed task Task_8
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:13] [INFO]    Assigned Task_42 to node2 at port 9002 (65 MB)
+[2025-07-19 12:48:13] [INFO]    Skipping already completed task Task_9
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:13] [INFO]    Manager: Task Task_30 marked as completed by node1
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:48:13] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:50:02] [ERROR]    Manager: Failed to connect to node node1 at port 9001
+[2025-07-19 12:50:02] [WARN]    Node node1 disconnected unexpectedly.
+[2025-07-19 12:50:02] [INFO]    Reassigning task Task_32 from failed node node1
+[2025-07-19 12:50:02] [INFO]    Reassigning task Task_34 from failed node node1
+[2025-07-19 12:50:02] [INFO]    Reassigning task Task_35 from failed node node1
+[2025-07-19 12:50:02] [INFO]    Reassigning task Task_36 from failed node node1
+[2025-07-19 12:50:02] [INFO]    Reassigning task Task_37 from failed node node1
+[2025-07-19 12:48:14] [INFO]    Manager: Task Task_38 marked as completed by node2
+[2025-07-19 12:48:14] [INFO]    Assigned Task_43 to node2 at port 9002 (23 MB)
+[2025-07-19 12:48:14] [INFO]    Skipping already completed task Task_10
+[2025-07-19 12:48:14] [INFO]    Manager: Task Task_39 marked as completed by node2
+[2025-07-19 12:48:16] [INFO]    Manager: Task Task_40 marked as completed by node2
+[2025-07-19 12:48:16] [INFO]    Assigned Task_44 to node2 at port 9002 (112 MB)
+[2025-07-19 12:48:16] [INFO]    Skipping already completed task Task_11
+[2025-07-19 12:48:16] [INFO]    Manager: Task Task_41 marked as completed by node2
+[2025-07-19 12:48:18] [INFO]    Manager: Task Task_42 marked as completed by node2
+[2025-07-19 12:48:18] [INFO]    Assigned Task_45 to node2 at port 9002 (81 MB)
+[2025-07-19 12:48:18] [INFO]    Skipping already completed task Task_12
+[2025-07-19 12:48:18] [INFO]    Assigned Task_46 to node2 at port 9002 (34 MB)
+[2025-07-19 12:48:18] [INFO]    Skipping already completed task Task_13
+[2025-07-19 12:50:07] [INFO]    Manager: Task Task_43 marked as completed by node2
+[2025-07-19 12:48:20] [INFO]    Manager: Task Task_44 marked as completed by node2
+[2025-07-19 12:48:20] [INFO]    Assigned Task_47 to node2 at port 9002 (91 MB)
+[2025-07-19 12:48:20] [INFO]    Skipping already completed task Task_14
+[2025-07-19 12:48:20] [INFO]    Manager: Task Task_45 marked as completed by node2
+[2025-07-19 12:48:20] [INFO]    Assigned Task_48 to node2 at port 9002 (117 MB)
+[2025-07-19 12:48:20] [INFO]    Skipping already completed task Task_15
+[2025-07-19 12:48:22] [INFO]    Manager: Task Task_46 marked as completed by node2
+[2025-07-19 12:48:22] [INFO]    Manager: Task Task_47 marked as completed by node2
+[2025-07-19 12:48:22] [INFO]    Assigned Task_49 to node2 at port 9002 (92 MB)
+[2025-07-19 12:48:22] [INFO]    Skipping already completed task Task_16
+[2025-07-19 12:48:22] [INFO]    Assigned Task_50 to node2 at port 9002 (38 MB)
+[2025-07-19 12:48:22] [INFO]    Skipping already completed task Task_17
+[2025-07-19 12:48:24] [INFO]    Manager: Task Task_48 marked as completed by node2
+[2025-07-19 12:48:24] [INFO]    Assigned Task_51 to node2 at port 9002 (22 MB)
+[2025-07-19 12:48:24] [INFO]    Skipping already completed task Task_18
+[2025-07-19 12:48:24] [INFO]    Assigned Task_52 to node2 at port 9002 (107 MB)
+[2025-07-19 12:48:24] [INFO]    Skipping already completed task Task_19
+[2025-07-19 12:48:24] [INFO]    Manager: Task Task_49 marked as completed by node2
+[2025-07-19 12:48:24] [INFO]    Assigned Task_53 to node2 at port 9002 (85 MB)
+[2025-07-19 12:48:24] [INFO]    Skipping already completed task Task_20
+[2025-07-19 12:48:26] [INFO]    Manager: Task Task_50 marked as completed by node2
+[2025-07-19 12:48:26] [WARN]    Node node2 disconnected unexpectedly.
+[2025-07-19 12:48:26] [INFO]    Reassigning task Task_51 from failed node node2
+[2025-07-19 12:48:26] [INFO]    Reassigning task Task_52 from failed node node2
+[2025-07-19 12:48:26] [INFO]    Reassigning task Task_53 from failed node node2
+[2025-07-19 12:48:31] [ERROR]    HealthMonitor: No node_agent is active!
+[2025-07-19 12:48:41] [ERROR]    HealthMonitor: No node_agent is active!
+[2025-07-19 12:48:51] [ERROR]    HealthMonitor: No node_agent is active!
+[2025-07-19 12:49:01] [ERROR]    HealthMonitor: No node_agent is active!
+[2025-07-19 12:49:11] [ERROR]    HealthMonitor: No node_agent is active!
+[2025-07-19 12:49:20] [INFO]    Node node1 connected from 127.0.0.1:9001 with 512 MB memory
+[2025-07-19 12:49:20] [INFO]    Manager: handling persistent connection for node node1 (socket: 7) to persistent handler.
+[2025-07-19 12:49:20] [INFO]    Assigned Task_54 to node1 at port 9001 (60 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_21
+[2025-07-19 12:49:20] [INFO]    Assigned Task_55 to node1 at port 9001 (30 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_22
+[2025-07-19 12:49:20] [INFO]    Assigned Task_56 to node1 at port 9001 (67 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_23
+[2025-07-19 12:49:20] [INFO]    Assigned Task_57 to node1 at port 9001 (40 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_24
+[2025-07-19 12:49:20] [INFO]    Assigned Task_58 to node1 at port 9001 (109 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_25
+[2025-07-19 12:49:20] [INFO]    Assigned Task_59 to node1 at port 9001 (12 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_26
+[2025-07-19 12:49:20] [INFO]    Assigned Task_60 to node1 at port 9001 (103 MB)
+[2025-07-19 12:49:20] [INFO]    Skipping already completed task Task_27
+[2025-07-19 12:49:21] [INFO]    Assigned Task_61 to node1 at port 9001 (12 MB)
+[2025-07-19 12:49:21] [INFO]    Skipping already completed task Task_28
+[2025-07-19 12:49:22] [INFO]    Assigned Task_62 to node1 at port 9001 (30 MB)
+[2025-07-19 12:49:22] [INFO]    Skipping already completed task Task_29
+[2025-07-19 12:49:22] [INFO]    Manager: Task Task_54 marked as completed by node1
+[2025-07-19 12:51:12] [INFO]    Manager: Task Task_55 marked as completed by node1
+[2025-07-19 12:49:25] [INFO]    Assigned Task_63 to node1 at port 9001 (123 MB)
+[2025-07-19 12:49:25] [INFO]    Skipping already completed task Task_30
+[2025-07-19 12:49:25] [INFO]    Manager: Task Task_56 marked as completed by node1
+[2025-07-19 12:49:26] [INFO]    Assigned Task_64 to node1 at port 9001 (67 MB)
+[2025-07-19 12:49:26] [INFO]    Skipping already completed task Task_31
+[2025-07-19 12:49:26] [INFO]    Node node2 connected from 127.0.0.1:9002 with 512 MB memory
+[2025-07-19 12:49:26] [INFO]    Manager: handling persistent connection for node node2 (socket: 5) to persistent handler.   Manager: Task Task_57 marked as completed by node1
+[2025-07-19 12:49:26] [INFO]    Manager: handling persistent connection for node node2 (socket: 5) to persistent handler.
+[2025-07-19 12:49:28] [INFO]    Assigned Task_65 to node1 at port 9001 (30 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_32 to node1 at port 9001 (9 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_66 to node1 at port 9001 (17 MB)
+[2025-07-19 12:51:17] [INFO]    Skipping already completed task Task_33
+[2025-07-19 12:51:17] [INFO]    Assigned Task_67 to node2 at port 9002 (122 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_34 to node2 at port 9002 (58 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_68 to node2 at port 9002 (46 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_35 to node2 at port 9002 (44 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_70 to node2 at port 9002 (18 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_37 to node2 at port 9002 (81 MB)
+[2025-07-19 12:51:17] [INFO]    Assigned Task_71 to node2 at port 9002 (78 MB)
+[2025-07-19 12:51:17] [INFO]    Skipping already completed task Task_38
+[2025-07-19 12:51:17] [INFO]    Manager: Task Task_58 marked as completed by node1
+[2025-07-19 12:51:17] [INFO]    Manager: Task Task_59 marked as completed by node1
+[2025-07-19 12:49:30] [INFO]    Assigned Task_72 to node1 at port 9001 (67 MB)
+[2025-07-19 12:49:30] [INFO]    Skipping already completed task Task_39
+[2025-07-19 12:49:30] [INFO]    Assigned Task_73 to node2 at port 9002 (62 MB)
+[2025-07-19 12:49:30] [INFO]    Skipping already completed task Task_40
+[2025-07-19 12:49:30] [INFO]    Manager: Task Task_60 marked as completed by node1
+[2025-07-19 12:49:30] [INFO]    Manager: Task Task_61 marked as completed by node1
+[2025-07-19 12:49:30] [INFO]    Assigned Task_74 to node1 at port 9001 (63 MB)
+[2025-07-19 12:49:30] [INFO]    Skipping already completed task Task_41
+[2025-07-19 12:49:31] [INFO]    Assigned Task_75 to node1 at port 9001 (77 MB)
+[2025-07-19 12:49:31] [INFO]    Skipping already completed task Task_42
+[2025-07-19 12:49:31] [INFO]    Manager: Task Task_67 marked as completed by node2
+[2025-07-19 12:49:31] [INFO]    Manager: Task Task_62 marked as completed by node1
+[2025-07-19 12:49:31] [INFO]    Assigned Task_76 to node2 at port 9002 (108 MB)
+[2025-07-19 12:49:32] [INFO]    Manager: Task Task_34 marked as completed by node2
+[2025-07-19 12:49:32] [INFO]    Manager: Task Task_68 marked as completed by node2
+[2025-07-19 12:49:32] [INFO]    Manager: Task Task_63 marked as completed by node1
+[2025-07-19 12:49:32] [INFO]    Manager: Task Task_64 marked as completed by node1
+[2025-07-19 12:49:32] [INFO]    Assigned Task_69 to node1 at port 9001 (117 MB)
+[2025-07-19 12:49:33] [INFO]    Assigned Task_36 to node1 at port 9001 (25 MB)
+[2025-07-19 12:49:33] [INFO]    Skipping already completed task Task_43
+[2025-07-19 12:51:22] [INFO]    Assigned Task_77 to node1 at port 9001 (97 MB)
+[2025-07-19 12:51:22] [INFO]    Skipping already completed task Task_44
+[2025-07-19 12:51:22] [INFO]    Assigned Task_78 to node2 at port 9002 (64 MB)
+[2025-07-19 12:51:22] [INFO]    Skipping already completed task Task_45
+[2025-07-19 12:51:22] [INFO]    Manager: Task Task_65 marked as completed by node1
+[2025-07-19 12:51:22] [INFO]    Manager: Task Task_35 marked as completed by node2
+[2025-07-19 12:49:35] [INFO]    Assigned Task_79 to node2 at port 9002 (101 MB)
+[2025-07-19 12:49:35] [INFO]    Skipping already completed task Task_46
+[2025-07-19 12:49:35] [INFO]    Manager: Task Task_70 marked as completed by node2
+[2025-07-19 12:49:35] [INFO]    Manager: Task Task_32 marked as completed by node1
+[2025-07-19 12:49:35] [INFO]    Manager: Task Task_37 marked as completed by node2
+[2025-07-19 12:49:35] [INFO]    Manager: Task Task_66 marked as completed by node1
+[2025-07-19 12:49:37] [INFO]    Assigned Task_80 to node1 at port 9001 (56 MB)
+[2025-07-19 12:49:37] [INFO]    Skipping already completed task Task_47
+[2025-07-19 12:49:37] [INFO]    Assigned Task_81 to node2 at port 9002 (82 MB)
+[2025-07-19 12:49:37] [INFO]    Manager: Task Task_71 marked as completed by node2
+[2025-07-19 12:49:37] [INFO]    Manager: Task Task_72 marked as completed by node1
+[2025-07-19 12:49:37] [INFO]    Assigned Task_82 to node1 at port 9001 (28 MB)
+[2025-07-19 12:49:37] [INFO]    Skipping already completed task Task_49
+[2025-07-19 12:49:37] [INFO]    Manager: Task Task_73 marked as completed by node2
+[2025-07-19 12:49:37] [INFO]    Manager: Task Task_74 marked as completed by node1
+[2025-07-19 12:49:38] [INFO]    Assigned Task_83 to node1 at port 9001 (97 MB)
+[2025-07-19 12:49:38] [INFO]    Skipping already completed task Task_50
+[2025-07-19 12:49:38] [INFO]    Assigned Task_84 to node2 at port 9002 (70 MB)
+[2025-07-19 12:49:38] [INFO]    Assigned Task_51 to node2 at port 9002 (22 MB)
+[2025-07-19 12:49:38] [INFO]    Manager: Task Task_75 marked as completed by node1
+[2025-07-19 12:49:38] [INFO]    Manager: Task Task_76 marked as completed by node2
+[2025-07-19 12:49:38] [INFO]    Assigned Task_85 to node2 at port 9002 (119 MB)
+[2025-07-19 12:51:27] [INFO]    Manager: Task Task_78 marked as completed by node2
+[2025-07-19 12:51:27] [INFO]    Manager: Task Task_69 marked as completed by node1
+[2025-07-19 12:49:39] [INFO]    Assigned Task_52 to node1 at port 9001 (107 MB)
+[2025-07-19 12:49:40] [INFO]    Assigned Task_86 to node1 at port 9001 (71 MB)
+[2025-07-19 12:49:40] [INFO]    Assigned Task_53 to node2 at port 9002 (85 MB)
+[2025-07-19 12:49:40] [INFO]    Manager: Task Task_36 marked as completed by node1
+[2025-07-19 12:49:40] [INFO]    Manager: Task Task_79 marked as completed by node2
+[2025-07-19 12:49:40] [INFO]    Assigned Task_87 to node2 at port 9002 (73 MB)
+[2025-07-19 12:49:40] [INFO]    Skipping already completed task Task_54
+[2025-07-19 12:49:41] [INFO]    Manager: Task Task_77 marked as completed by node1
+[2025-07-19 12:49:41] [INFO]    Manager: Task Task_81 marked as completed by node2
+[2025-07-19 12:49:41] [INFO]    Assigned Task_88 to node1 at port 9001 (73 MB)
+[2025-07-19 12:49:41] [INFO]    Skipping already completed task Task_55
+[2025-07-19 12:49:41] [INFO]    Assigned Task_89 to node1 at port 9001 (23 MB)
+[2025-07-19 12:49:41] [INFO]    Skipping already completed task Task_56
+[2025-07-19 12:49:42] [INFO]    Assigned Task_90 to node1 at port 9001 (19 MB)
+[2025-07-19 12:49:42] [INFO]    Skipping already completed task Task_57
+[2025-07-19 12:49:43] [INFO]    Assigned Task_91 to node1 at port 9001 (8 MB)
+[2025-07-19 12:49:43] [INFO]    Skipping already completed task Task_58
+[2025-07-19 12:49:43] [INFO]    Assigned Task_92 to node2 at port 9002 (66 MB)
+[2025-07-19 12:49:43] [INFO]    Skipping already completed task Task_59
+[2025-07-19 12:49:43] [INFO]    Assigned Task_93 to node2 at port 9002 (51 MB)
+[2025-07-19 12:49:43] [INFO]    Skipping already completed task Task_60
+[2025-07-19 12:49:43] [INFO]    Manager: Task Task_80 marked as completed by node1
+[2025-07-19 12:49:43] [INFO]    Manager: Task Task_84 marked as completed by node2
+[2025-07-19 12:49:44] [INFO]    Assigned Task_94 to node1 at port 9001 (40 MB)
+[2025-07-19 12:49:44] [INFO]    Skipping already completed task Task_61
+[2025-07-19 12:49:45] [INFO]    Assigned Task_95 to node1 at port 9001 (30 MB)
+[2025-07-19 12:49:45] [INFO]    Skipping already completed task Task_62
+[2025-07-19 12:49:45] [INFO]    Assigned Task_96 to node2 at port 9002 (29 MB)
+[2025-07-19 12:49:45] [INFO]    Skipping already completed task Task_63
+[2025-07-19 12:49:45] [INFO]    Assigned Task_97 to node2 at port 9002 (60 MB)
+[2025-07-19 12:49:45] [INFO]    Skipping already completed task Task_64
+[2025-07-19 12:49:45] [INFO]    Manager: Task Task_82 marked as completed by node1
+[2025-07-19 12:49:45] [INFO]    Manager: Task Task_51 marked as completed by node2
+[2025-07-19 12:49:46] [INFO]    Manager: Task Task_83 marked as completed by node1
+[2025-07-19 12:49:46] [INFO]    Manager: Task Task_52 marked as completed by node1
+[2025-07-19 12:49:46] [INFO]    Manager: Task Task_86 marked as completed by node1
+[2025-07-19 12:49:46] [INFO]    Manager: Task Task_85 marked as completed by node2
+[2025-07-19 12:49:46] [INFO]    Manager: Task Task_53 marked as completed by node2
+[2025-07-19 12:49:46] [INFO]    Manager: Task Task_87 marked as completed by node2
+[2025-07-19 12:49:47] [INFO]    Assigned Task_98 to node1 at port 9001 (93 MB)
+[2025-07-19 12:49:47] [INFO]    Skipping already completed task Task_65
+[2025-07-19 12:49:48] [INFO]    Assigned Task_99 to node1 at port 9001 (7 MB)
+[2025-07-19 12:49:48] [INFO]    Skipping already completed task Task_48
+[2025-07-19 12:49:48] [INFO]    Skipping already completed task Task_66
+[2025-07-19 12:49:50] [INFO]    Assigned Task_100 to node1 at port 9001 (119 MB)
+[2025-07-19 12:49:50] [INFO]    Skipping already completed task Task_67
+[2025-07-19 12:49:51] [INFO]    Assigned Task_101 to node1 at port 9001 (48 MB)
+[2025-07-19 12:49:51] [INFO]    Skipping already completed task Task_68
+[2025-07-19 12:49:51] [INFO]    Assigned Task_102 to node2 at port 9002 (65 MB)
+[2025-07-19 12:49:51] [INFO]    Skipping already completed task Task_69
+[2025-07-19 12:49:51] [INFO]    Assigned Task_103 to node2 at port 9002 (69 MB)
+[2025-07-19 12:49:51] [INFO]    Skipping already completed task Task_70
+[2025-07-19 12:49:51] [INFO]    Assigned Task_104 to node2 at port 9002 (85 MB)
+[2025-07-19 12:49:51] [INFO]    Assigned Task_105 to node1 at port 9001 (26 MB)
+[2025-07-19 12:49:51] [INFO]    Skipping already completed task Task_72
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_88 marked as completed by node1
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_92 marked as completed by node2
+[2025-07-19 12:49:51] [INFO]    Assigned Task_106 to node2 at port 9002 (121 MB)
+[2025-07-19 12:49:51] [INFO]    Skipping already completed task Task_73
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_89 marked as completed by node1
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_90 marked as completed by node1
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_91 marked as completed by node1
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_94 marked as completed by node1
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_93 marked as completed by node2
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_96 marked as completed by node2
+[2025-07-19 12:49:51] [INFO]    Manager: Task Task_97 marked as completed by node2
+[2025-07-19 12:49:52] [INFO]    Assigned Task_107 to node1 at port 9001 (104 MB)
+[2025-07-19 12:49:52] [INFO]    Skipping already completed task Task_74
+[2025-07-19 12:49:52] [INFO]    Assigned Task_108 to node1 at port 9001 (13 MB)
+[2025-07-19 12:49:52] [INFO]    Skipping already completed task Task_75
+[2025-07-19 12:49:52] [INFO]    Assigned Task_109 to node2 at port 9002 (84 MB)
+[2025-07-19 12:49:52] [INFO]    Skipping already completed task Task_76
+[2025-07-19 12:49:53] [INFO]    Assigned Task_110 to node1 at port 9001 (32 MB)
+[2025-07-19 12:49:53] [INFO]    Skipping already completed task Task_77
+[2025-07-19 12:49:53] [INFO]    Manager: Task Task_95 marked as completed by node1
+[2025-07-19 12:49:53] [INFO]    Manager: Task Task_102 marked as completed by node2
+[2025-07-19 12:49:53] [INFO]    Assigned Task_111 to node2 at port 9002 (99 MB)
+[2025-07-19 12:49:53] [INFO]    Skipping already completed task Task_78
+[2025-07-19 12:49:54] [INFO]    Assigned Task_112 to node1 at port 9001 (17 MB)
+[2025-07-19 12:49:54] [INFO]    Skipping already completed task Task_79
+[2025-07-19 12:49:55] [INFO]    Assigned Task_113 to node1 at port 9001 (32 MB)
+[2025-07-19 12:49:55] [INFO]    Skipping already completed task Task_80
+[2025-07-19 12:49:55] [INFO]    Assigned Task_114 to node2 at port 9002 (51 MB)
+[2025-07-19 12:49:55] [INFO]    Skipping already completed task Task_81
+[2025-07-19 12:49:55] [INFO]    Manager: Task Task_98 marked as completed by node1
+[2025-07-19 12:49:55] [INFO]    Manager: Task Task_99 marked as completed by node1
+[2025-07-19 12:49:55] [INFO]    Manager: Task Task_103 marked as completed by node2
+[2025-07-19 12:49:55] [INFO]    Manager: Task Task_104 marked as completed by node2
+[2025-07-19 12:49:56] [INFO]    Assigned Task_115 to node1 at port 9001 (57 MB)
+[2025-07-19 12:49:56] [INFO]    Skipping already completed task Task_82
+[2025-07-19 12:49:56] [INFO]    Assigned Task_116 to node2 at port 9002 (79 MB)
+[2025-07-19 12:49:56] [INFO]    Skipping already completed task Task_83
+[2025-07-19 12:49:57] [INFO]    Assigned Task_117 to node1 at port 9001 (13 MB)
+[2025-07-19 12:49:57] [INFO]    Skipping already completed task Task_84
+[2025-07-19 12:49:57] [INFO]    Assigned Task_118 to node2 at port 9002 (64 MB)
+[2025-07-19 12:49:57] [INFO]    Skipping already completed task Task_85
+[2025-07-19 12:49:57] [INFO]    Manager: Task Task_100 marked as completed by node1
+[2025-07-19 12:49:57] [INFO]    Manager: Task Task_101 marked as completed by node1
+[2025-07-19 12:49:57] [INFO]    Manager: Task Task_106 marked as completed by node2
+[2025-07-19 12:49:57] [INFO]    Manager: Task Task_109 marked as completed by node2
+[2025-07-19 12:49:59] [INFO]    Assigned Task_119 to node1 at port 9001 (125 MB)
+[2025-07-19 12:49:59] [INFO]    Skipping already completed task Task_86
+[2025-07-19 12:49:59] [INFO]    Assigned Task_120 to node2 at port 9002 (98 MB)
+[2025-07-19 12:49:59] [INFO]    Skipping already completed task Task_87
+[2025-07-19 12:50:00] [INFO]    Assigned Task_121 to node1 at port 9001 (31 MB)
+[2025-07-19 12:50:00] [INFO]    Skipping already completed task Task_88
+[2025-07-19 12:50:00] [INFO]    Assigned Task_122 to node2 at port 9002 (114 MB)
+[2025-07-19 12:50:00] [INFO]    Skipping already completed task Task_89
+[2025-07-19 12:50:01] [INFO]    Assigned Task_123 to node1 at port 9001 (31 MB)
+[2025-07-19 12:50:01] [INFO]    Skipping already completed task Task_90
+[2025-07-19 12:50:01] [INFO]    Manager: Task Task_105 marked as completed by node1
+[2025-07-19 12:50:01] [INFO]    Manager: Task Task_111 marked as completed by node2
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_107 marked as completed by node1
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_108 marked as completed by node1
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_110 marked as completed by node1
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_112 marked as completed by node1
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_114 marked as completed by node2
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_116 marked as completed by node2
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_118 marked as completed by node2
+[2025-07-19 12:50:02] [INFO]    Manager: Task Task_120 marked as completed by node2
+[2025-07-19 12:50:02] [INFO]    Assigned Task_124 to node1 at port 9001 (111 MB)
+[2025-07-19 12:50:02] [INFO]    Skipping already completed task Task_91
+[2025-07-19 12:50:03] [INFO]    Assigned Task_125 to node1 at port 9001 (70 MB)
+[2025-07-19 12:50:03] [INFO]    Skipping already completed task Task_92
+[2025-07-19 12:50:03] [INFO]    Assigned Task_126 to node2 at port 9002 (69 MB)
+[2025-07-19 12:50:03] [INFO]    Skipping already completed task Task_93
+[2025-07-19 12:51:52] [INFO]    Assigned Task_127 to node1 at port 9001 (26 MB)
+[2025-07-19 12:51:52] [INFO]    Skipping already completed task Task_94
+[2025-07-19 12:51:52] [INFO]    Assigned Task_128 to node2 at port 9002 (32 MB)
+[2025-07-19 12:51:52] [INFO]    Skipping already completed task Task_95
+[2025-07-19 12:51:52] [INFO]    Assigned Task_129 to node2 at port 9002 (75 MB)
+[2025-07-19 12:51:52] [INFO]    Skipping already completed task Task_96
+[2025-07-19 12:51:52] [INFO]    Assigned Task_130 to node2 at port 9002 (70 MB)
+[2025-07-19 12:51:52] [INFO]    Skipping already completed task Task_97
+[2025-07-19 12:51:52] [INFO]    Assigned Task_131 to node2 at port 9002 (67 MB)
+[2025-07-19 12:51:52] [INFO]    Skipping already completed task Task_98
+[2025-07-19 12:51:52] [INFO]    Manager: Task Task_113 marked as completed by node1
+[2025-07-19 12:51:52] [INFO]    Manager: Task Task_122 marked as completed by node2
+[2025-07-19 12:50:04] [INFO]    Assigned Task_132 to node2 at port 9002 (122 MB)
+[2025-07-19 12:50:04] [INFO]    Skipping already completed task Task_99
+[2025-07-19 12:50:04] [INFO]    Manager: Task Task_115 marked as completed by node1
+[2025-07-19 12:50:04] [INFO]    Manager: Task Task_117 marked as completed by node1
+[2025-07-19 12:50:04] [INFO]    Manager: Task Task_126 marked as completed by node2
+[2025-07-19 12:50:04] [INFO]    Assigned Task_133 to node1 at port 9001 (101 MB)
+[2025-07-19 12:50:04] [INFO]    Skipping already completed task Task_100
+[2025-07-19 12:50:04] [INFO]    Assigned Task_134 to node2 at port 9002 (69 MB)
+[2025-07-19 12:50:04] [INFO]    Skipping already completed task Task_101
+[2025-07-19 12:50:05] [INFO]    Manager: Task Task_119 marked as completed by node1
+[2025-07-19 12:50:05] [INFO]    Manager: Task Task_128 marked as completed by node2
+[2025-07-19 12:50:05] [INFO]    Assigned Task_135 to node1 at port 9001 (91 MB)
+[2025-07-19 12:50:05] [INFO]    Skipping already completed task Task_102
+[2025-07-19 12:50:05] [INFO]    Assigned Task_136 to node2 at port 9002 (56 MB)
+[2025-07-19 12:50:05] [INFO]    Skipping already completed task Task_103
+[2025-07-19 12:50:05] [INFO]    Assigned Task_137 to node2 at port 9002 (52 MB)
+[2025-07-19 12:50:05] [INFO]    Skipping already completed task Task_104
+[2025-07-19 12:50:06] [INFO]    Assigned Task_138 to node1 at port 9001 (40 MB)
+[2025-07-19 12:50:06] [INFO]    Skipping already completed task Task_105
+[2025-07-19 12:50:06] [INFO]    Manager: Task Task_121 marked as completed by node1
+[2025-07-19 12:50:06] [INFO]    Manager: Task Task_129 marked as completed by node2
+[2025-07-19 12:50:07] [INFO]    Manager: Task Task_123 marked as completed by node1
+[2025-07-19 12:50:07] [INFO]    Manager: Task Task_130 marked as completed by node2
+[2025-07-19 12:50:07] [INFO]    Assigned Task_139 to node2 at port 9002 (95 MB)
+[2025-07-19 12:50:07] [INFO]    Skipping already completed task Task_106
+[2025-07-19 12:50:07] [INFO]    Assigned Task_140 to node1 at port 9001 (9 MB)
+[2025-07-19 12:50:07] [INFO]    Skipping already completed task Task_107
+[2025-07-19 12:50:07] [INFO]    Skipping already completed task Task_71
+[2025-07-19 12:50:08] [INFO]    Assigned Task_141 to node1 at port 9001 (42 MB)
+[2025-07-19 12:50:08] [INFO]    Skipping already completed task Task_108
+[2025-07-19 12:50:08] [INFO]    Manager: Task Task_124 marked as completed by node1
+[2025-07-19 12:50:10] [INFO]    Assigned Task_142 to node1 at port 9001 (62 MB)
+[2025-07-19 12:50:10] [INFO]    Manager: Task Task_131 marked as completed by node2
+[2025-07-19 12:50:10] [INFO]    Manager: Task Task_125 marked as completed by node1
+[2025-07-19 12:50:11] [INFO]    Assigned Task_143 to node1 at port 9001 (115 MB)
+[2025-07-19 12:50:11] [INFO]    Assigned Task_144 to node2 at port 9002 (73 MB)
+[2025-07-19 12:50:11] [INFO]    Manager: Task Task_132 marked as completed by node2
+[2025-07-19 12:50:11] [INFO]    Manager: Task Task_134 marked as completed by node2
+[2025-07-19 12:50:11] [INFO]    Manager: Task Task_127 marked as completed by node1
+[2025-07-19 12:50:11] [INFO]    Assigned Task_145 to node2 at port 9002 (110 MB)
+[2025-07-19 12:50:12] [INFO]    Assigned Task_149 to node1 at port 9001 (27 MB)
+[2025-07-19 12:50:12] [INFO]    Assigned Task_150 to node2 at port 9002 (95 MB)
+[2025-07-19 12:52:02] [INFO]    Assigned Task_151 to node1 at port 9001 (24 MB)
+[2025-07-19 12:52:02] [INFO]    Manager: Task Task_136 marked as completed by node2
+[2025-07-19 12:52:02] [INFO]    Manager: Task Task_137 marked as completed by node2
+[2025-07-19 12:52:02] [INFO]    Manager: Task Task_133 marked as completed by node1
+[2025-07-19 12:52:02] [INFO]    Manager: Task Task_135 marked as completed by node1
+[2025-07-19 12:52:02] [INFO]    Assigned Task_152 to node1 at port 9001 (40 MB)
+[2025-07-19 12:50:15] [INFO]    Assigned Task_153 to node1 at port 9001 (103 MB)
+[2025-07-19 12:50:15] [INFO]    Assigned Task_154 to node2 at port 9002 (55 MB)
+[2025-07-19 12:50:15] [INFO]    Assigned Task_155 to node1 at port 9001 (47 MB)
+[2025-07-19 12:50:15] [INFO]    Assigned Task_156 to node2 at port 9002 (61 MB)
+[2025-07-19 12:50:15] [INFO]    Manager: Task Task_139 marked as completed by node2
+[2025-07-19 12:50:15] [INFO]    Manager: Task Task_144 marked as completed by node2
+[2025-07-19 12:50:15] [INFO]    Manager: Task Task_138 marked as completed by node1
+[2025-07-19 12:50:15] [INFO]    Manager: Task Task_140 marked as completed by node1
+[2025-07-19 12:50:16] [INFO]    Assigned Task_157 to node1 at port 9001 (26 MB)
+[2025-07-19 12:50:17] [INFO]    Assigned Task_158 to node1 at port 9001 (8 MB)
+[2025-07-19 12:50:17] [INFO]    Assigned Task_159 to node2 at port 9002 (37 MB)
+[2025-07-19 12:50:17] [INFO]    Assigned Task_160 to node2 at port 9002 (86 MB)
+[2025-07-19 12:50:17] [INFO]    Manager: Task Task_145 marked as completed by node2
+[2025-07-19 12:50:17] [INFO]    Manager: Task Task_141 marked as completed by node1
+[2025-07-19 12:50:17] [INFO]    Assigned Task_161 to node2 at port 9002 (115 MB)
+[2025-07-19 12:50:18] [INFO]    Manager: Task Task_150 marked as completed by node2
+[2025-07-19 12:50:18] [INFO]    Manager: Task Task_154 marked as completed by node2
+[2025-07-19 12:50:18] [INFO]    Manager: Task Task_142 marked as completed by node1
+[2025-07-19 12:50:18] [INFO]    Manager: Task Task_143 marked as completed by node1
+[2025-07-19 12:50:18] [INFO]    Manager: Task Task_149 marked as completed by node1
+[2025-07-19 12:50:18] [INFO]    Assigned Task_162 to node1 at port 9001 (121 MB)
+[2025-07-19 12:52:07] [INFO]    Assigned Task_163 to node1 at port 9001 (71 MB)
+[2025-07-19 12:50:20] [INFO]    Assigned Task_146 to node1 at port 9001 (57 MB)
+[2025-07-19 12:50:20] [INFO]    Assigned Task_147 to node2 at port 9002 (123 MB)
+[2025-07-19 12:50:20] [INFO]    Assigned Task_148 to node2 at port 9002 (23 MB)
+[2025-07-19 12:50:20] [INFO]    Manager: Task Task_156 marked as completed by node2
+[2025-07-19 12:50:20] [INFO]    Manager: Task Task_151 marked as completed by node1
+[2025-07-19 12:50:21] [INFO]    Assigned Task_164 to node2 at port 9002 (75 MB)
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_32
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_34
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_35
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_36
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_37
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_51
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_52
+[2025-07-19 12:50:21] [INFO]    Skipping already completed task Task_53
+[2025-07-19 12:50:21] [INFO]    Manager: Task Task_159 marked as completed by node2
+[2025-07-19 12:50:21] [INFO]    Manager: Task Task_160 marked as completed by node2
+[2025-07-19 12:50:21] [INFO]    Manager: Task Task_152 marked as completed by node1
+[2025-07-19 12:50:22] [INFO]    Manager: Task Task_161 marked as completed by node2
+[2025-07-19 12:50:22] [INFO]    Manager: Task Task_153 marked as completed by node1
+[2025-07-19 12:50:22] [INFO]    Manager: Task Task_155 marked as completed by node1
+[2025-07-19 12:50:22] [INFO]    Manager: Task Task_147 marked as completed by node2
+[2025-07-19 12:50:23] [INFO]    Manager: Task Task_157 marked as completed by node1
+[2025-07-19 12:50:23] [INFO]    Manager: Task Task_148 marked as completed by node2
+[2025-07-19 12:52:12] [INFO]    Manager: Task Task_158 marked as completed by node1
+[2025-07-19 12:52:12] [INFO]    Manager: Task Task_164 marked as completed by node2
+[2025-07-19 12:50:25] [INFO]    Manager: Task Task_162 marked as completed by node1
+[2025-07-19 12:50:25] [INFO]    Manager: Task Task_163 marked as completed by node1
+[2025-07-19 12:50:27] [INFO]    Manager: Task Task_146 marked as completed by node1
