@@ -8,12 +8,14 @@ BUILD_DIR = build
 MANAGER_SRC = $(SRC_DIR)/manager/manager.cpp
 NODE_AGENT_SRC = $(SRC_DIR)/node/node_agent.cpp
 CLIENT_SRC = $(SRC_DIR)/client/client.cpp
+DASHBOARD_SRC = $(SRC_DIR)/manager/dashboard.cpp
 
 MANAGER_BIN = $(BUILD_DIR)/manager
 NODE_AGENT_BIN = $(BUILD_DIR)/node_agent
 CLIENT_BIN = $(BUILD_DIR)/client
+DASHBOARD_BIN = $(BUILD_DIR)/dashboard
 
-all: $(MANAGER_BIN) $(NODE_AGENT_BIN) $(CLIENT_BIN)
+all: $(MANAGER_BIN) $(NODE_AGENT_BIN) $(CLIENT_BIN) $(DASHBOARD_BIN)
 
 $(MANAGER_BIN): $(MANAGER_SRC)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $@ $^
@@ -23,6 +25,9 @@ $(NODE_AGENT_BIN): $(NODE_AGENT_SRC)
 
 $(CLIENT_BIN): $(CLIENT_SRC)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $@ $^
+
+$(DASHBOARD_BIN): $(DASHBOARD_SRC)
+	$(CXX) $(CXXFLAGS) -o $@ $^ -lpthread
 
 clean:
 	rm -f $(BUILD_DIR)/*

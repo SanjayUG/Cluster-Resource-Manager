@@ -30,6 +30,7 @@ struct NodeInfo {
     int port;
     int sockfd;
     int available_memory = 0; // in MB
+    std::string health_status = "UP";
 };
 
 enum class TaskStatus { QUEUED, ASSIGNED, COMPLETED };
@@ -166,6 +167,7 @@ void health_monitor() {
                     alive = true;
                     close(sockfd);
                 }
+                node.health_status = alive ? "UP" : "DOWN";
                 if (!alive) {
                     down_nodes.push_back(id);
                 }
@@ -185,7 +187,7 @@ void health_monitor() {
                 }
                 // Remove node from nodes map
                 std::lock_guard<std::mutex> nlock(node_mutex);
-                nodes.erase(id);
+                // nodes.erase(id); // Don't erase, just mark as DOWN for dashboard
             }
         }
         // If no nodes are available, notify manager
@@ -314,6 +316,45 @@ void handle_client(int client_sock) {
     close(client_sock);
 }
 
+void status_server() {
+    int status_port = 6000;
+    int server_fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (server_fd < 0) return;
+    int opt = 1;
+    setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &opt, sizeof(opt));
+    sockaddr_in address{};
+    address.sin_family = AF_INET;
+    address.sin_addr.s_addr = INADDR_ANY;
+    address.sin_port = htons(status_port);
+    if (bind(server_fd, (sockaddr *)&address, sizeof(address)) < 0) return;
+    if (listen(server_fd, 5) < 0) return;
+    while (running) {
+        sockaddr_in client_addr{};
+        socklen_t addrlen = sizeof(client_addr);
+        int new_socket = accept(server_fd, (sockaddr *)&client_addr, &addrlen);
+        if (new_socket < 0) continue;
+        std::ostringstream oss;
+        {
+            std::lock_guard<std::mutex> lock(node_mutex);
+            oss << "NODES\n";
+            for (const auto &[id, node] : nodes) {
+                oss << id << "," << node.ip << "," << node.port << "," << node.available_memory << "," << node.health_status << "\n";
+            }
+        }
+        {
+            std::lock_guard<std::mutex> lock(task_mutex);
+            oss << "TASKS\n";
+            for (const auto &[tid, entry] : tasks) {
+                oss << tid << "," << (entry.status == TaskStatus::QUEUED ? "QUEUED" : entry.status == TaskStatus::ASSIGNED ? "ASSIGNED" : "COMPLETED") << "," << entry.assigned_node << "," << entry.memory_required << "\n";
+            }
+        }
+        std::string out = oss.str();
+        send(new_socket, out.c_str(), out.size(), 0);
+        close(new_socket);
+    }
+    close(server_fd);
+}
+
 int main(int argc, char* argv[]) {
     signal(SIGINT, signal_handler);
 
@@ -358,6 +399,7 @@ int main(int argc, char* argv[]) {
 
     std::thread assign_thread(assign_tasks);
     std::thread health_thread(health_monitor);
+    std::thread status_thread(status_server);
 
     while (running) {
         sockaddr_in client_addr{};
@@ -378,6 +420,7 @@ int main(int argc, char* argv[]) {
 
     assign_thread.join();
     health_thread.join();
+    status_thread.join();
     close(server_fd);
     return 0;
 }

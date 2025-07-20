@@ -9,7 +9,8 @@
    
    Cleans and builds the project using the Makefile. Binaries are placed in the build directory.
 
-5. ./build/manager
+5. START manager server by "./build/manager"
+   and dashboard server by "./build/dashboard"
 6. Open multiple new terminal windows for each node agent (Ex:3 nodes)
 
 *Terminals 2,3,4 respectively:*
